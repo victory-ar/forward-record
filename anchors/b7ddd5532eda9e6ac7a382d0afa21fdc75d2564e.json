@@ -1,0 +1,20 @@
+{
+  "anchored_at": "2026-09-08T21:17:05+00:00",
+  "artifact": "sha256 over the ASCII commit sha",
+  "artifact_sha256": "07e683ef04be434c37a369d0fa4ab34fb77ec3e0f84c3ffe6a09bc239e3b2203",
+  "commit": "b7ddd5532eda9e6ac7a382d0afa21fdc75d2564e",
+  "rekor": {
+    "integratedTime": 1788902225,
+    "integratedTimeUTC": "2026-09-08T21:17:05+00:00",
+    "logID": "c0d23d6ad406973f9559f3ba2d1ca01f84147d8ffc5b8445c224f98b9591801d",
+    "logIndex": 2762172152,
+    "url": "https://rekor.sigstore.dev",
+    "uuid": "108e9186e8c5677afa450a82e601564449f62cdb6442728063e47bd5ebe3e830630abc8329c5248c"
+  },
+  "verify": [
+    "printf '%s' b7ddd5532eda9e6ac7a382d0afa21fdc75d2564e | sha256sum",
+    "rekor-cli search --sha sha256:07e683ef04be434c37a369d0fa4ab34fb77ec3e0f84c3ffe6a09bc239e3b2203",
+    "rekor-cli get --log-index 2762172152  # integratedTime = when this commit provably existed",
+    "public key: KEY.pub.pem in this repo"
+  ]
+}

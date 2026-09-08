@@ -1,0 +1,35 @@
+{
+  "away": "SF",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 9.1449
+  },
+  "game_id": "2026_01_SF_LA",
+  "gameday": "2026-09-10",
+  "ghost_post_id": "6aa06b34e232f104a586ab4b",
+  "ghost_published_at": "2026-09-08T20:08:20.000Z",
+  "home": "LA",
+  "kickoff_utc": "2026-09-11T00:35:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -3.5,
+    "total": 48.0
+  },
+  "model": {
+    "home_win_prob": 0.6972,
+    "spread": -5.929175,
+    "total": 57.1449
+  },
+  "note": "Recorded 2026-09-08 when the public record was created, after the research post published at ghost_published_at and before kickoff.",
+  "recorded_at_utc": "2026-09-08T21:18:55+00:00",
+  "research_url": "/research/picks/nfl-week-1-49ers-vs-rams-2026-09-11",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 1
+}
