@@ -1,0 +1,142 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-08-01",
+  "event": "UFC Fight Night: Medić vs Rodriguez",
+  "event_id": 1062,
+  "fights": [
+    {
+      "blue": "Kyle Prepolec",
+      "fight_id": 9107,
+      "market_p_red_devig": 0.8465,
+      "model_p_red_prefight": 0.8184,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:00:01.892644+00:00",
+      "red": "Mateusz Rebecki",
+      "winner": "Mateusz Rebecki"
+    },
+    {
+      "blue": "Navajo Stirling",
+      "fight_id": 9108,
+      "market_p_red_devig": 0.2706,
+      "model_p_red_prefight": 0.3458,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:00:11.426724+00:00",
+      "red": "Jan Blachowicz",
+      "winner": "Navajo Stirling"
+    },
+    {
+      "blue": "Hailey Cowan",
+      "fight_id": 9110,
+      "market_p_red_devig": 0.8088,
+      "model_p_red_prefight": 0.7482,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:00:18.825358+00:00",
+      "red": "Nina Milošević",
+      "winner": "Nina Milošević"
+    },
+    {
+      "blue": "Bogdan Grad",
+      "fight_id": 9111,
+      "market_p_red_devig": 0.3419,
+      "model_p_red_prefight": 0.4053,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:00:26.691582+00:00",
+      "red": "Dennis Buzukja",
+      "winner": "Bogdan Grad"
+    },
+    {
+      "blue": "Michael Oliveira",
+      "fight_id": 9113,
+      "market_p_red_devig": 0.25,
+      "model_p_red_prefight": 0.5001,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-01T07:00:34.763511+00:00",
+      "red": "Oban Elliott",
+      "winner": "Michael Oliveira"
+    },
+    {
+      "blue": "Tofiq Musayev",
+      "fight_id": 9114,
+      "market_p_red_devig": 0.6908,
+      "model_p_red_prefight": 0.7185,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-01T07:00:42.780837+00:00",
+      "red": "Ludovit Klein",
+      "winner": "Tofiq Musayev"
+    },
+    {
+      "blue": "Gilbert Urbina",
+      "fight_id": 9115,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.5624,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-01T07:00:51.137598+00:00",
+      "red": "Vlasto Čepo",
+      "winner": "Gilbert Urbina"
+    },
+    {
+      "blue": "Robert Valentin",
+      "fight_id": 9116,
+      "market_p_red_devig": 0.4098,
+      "model_p_red_prefight": 0.7257,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-01T07:00:58.972486+00:00",
+      "red": "Dusko Todorovic",
+      "winner": "Robert Valentin"
+    },
+    {
+      "blue": "Marcin Tybura",
+      "fight_id": 9117,
+      "market_p_red_devig": 0.7502,
+      "model_p_red_prefight": 0.6985,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:01:06.713958+00:00",
+      "red": "Aleksandar Rakic",
+      "winner": "Aleksandar Rakic"
+    },
+    {
+      "blue": "Daniel Rodriguez",
+      "fight_id": 9118,
+      "market_p_red_devig": 0.7685,
+      "model_p_red_prefight": 0.6801,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:01:15.128716+00:00",
+      "red": "Uros Medic",
+      "winner": "Uros Medic"
+    },
+    {
+      "blue": "Alexander Poppeck",
+      "fight_id": 9121,
+      "market_p_red_devig": 0.7034,
+      "model_p_red_prefight": 0.7289,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:01:20.864146+00:00",
+      "red": "Jovan Leka",
+      "winner": "Jovan Leka"
+    },
+    {
+      "blue": "Stephanie Luciano",
+      "fight_id": 9138,
+      "market_p_red_devig": 0.2571,
+      "model_p_red_prefight": 0.4324,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:01:28.606597+00:00",
+      "red": "Marina Spasić",
+      "winner": "Stephanie Luciano"
+    },
+    {
+      "blue": "Mark Vologdin",
+      "fight_id": 9139,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.5819,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-01T07:01:36.537117+00:00",
+      "red": "Borislav Nikolic",
+      "winner": "Borislav Nikolic"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 13,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

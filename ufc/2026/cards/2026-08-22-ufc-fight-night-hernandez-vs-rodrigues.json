@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-08-22",
+  "event": "UFC Fight Night: Hernandez vs Rodrigues",
+  "event_id": 1068,
+  "fights": [
+    {
+      "blue": "Elise Reed",
+      "fight_id": 9241,
+      "market_p_red_devig": 0.863,
+      "model_p_red_prefight": 0.6089,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-21T07:00:02.360664+00:00",
+      "red": "Shanelle Dyer",
+      "winner": "Shanelle Dyer"
+    },
+    {
+      "blue": "Jackson McVey",
+      "fight_id": 9243,
+      "market_p_red_devig": 0.3813,
+      "model_p_red_prefight": 0.6676,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:00:11.884246+00:00",
+      "red": "Wes Schultz",
+      "winner": "Jackson McVey"
+    },
+    {
+      "blue": "Shamil Gaziev",
+      "fight_id": 9244,
+      "market_p_red_devig": 0.4675,
+      "model_p_red_prefight": 0.6194,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:00:19.269459+00:00",
+      "red": "Kennedy Nzechukwu",
+      "winner": "Shamil Gaziev"
+    },
+    {
+      "blue": "Jeisla Chaves",
+      "fight_id": 9245,
+      "market_p_red_devig": 0.8182,
+      "model_p_red_prefight": 0.4681,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:00:26.506724+00:00",
+      "red": "Carli Judice",
+      "winner": "Carli Judice"
+    },
+    {
+      "blue": "Reinier de Ridder",
+      "fight_id": 9246,
+      "market_p_red_devig": 0.2308,
+      "model_p_red_prefight": 0.1731,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-21T07:00:33.946531+00:00",
+      "red": "Roman Dolidze",
+      "winner": "Reinier de Ridder"
+    },
+    {
+      "blue": "Vitor Petrino",
+      "fight_id": 9247,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.45,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-21T07:00:42.130452+00:00",
+      "red": "Serghei Spivac",
+      "winner": "Vitor Petrino"
+    },
+    {
+      "blue": "Gregory Rodrigues",
+      "fight_id": 9248,
+      "market_p_red_devig": 0.6482,
+      "model_p_red_prefight": 0.7621,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:00:49.820008+00:00",
+      "red": "Anthony Hernandez",
+      "winner": "Gregory Rodrigues"
+    },
+    {
+      "blue": "Nasrat Haqparast",
+      "fight_id": 9269,
+      "market_p_red_devig": 0.5217,
+      "model_p_red_prefight": 0.6368,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-21T07:00:57.912465+00:00",
+      "red": "Chris Padilla",
+      "winner": "Chris Padilla"
+    },
+    {
+      "blue": "Stan Dorsainvil",
+      "fight_id": 9270,
+      "market_p_red_devig": 0.8382,
+      "model_p_red_prefight": 0.5852,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:01:05.315706+00:00",
+      "red": "Gauge Young",
+      "winner": "Stan Dorsainvil"
+    },
+    {
+      "blue": "Mason Jones",
+      "fight_id": 9272,
+      "market_p_red_devig": 0.2405,
+      "model_p_red_prefight": 0.4857,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:01:21.095693+00:00",
+      "red": "MarQuel Mederos",
+      "winner": "MarQuel Mederos"
+    },
+    {
+      "blue": "Ryan Kuse",
+      "fight_id": 9273,
+      "market_p_red_devig": 0.8647,
+      "model_p_red_prefight": 0.6295,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-21T07:01:29.197438+00:00",
+      "red": "Marcio Barbosa",
+      "winner": "Marcio Barbosa"
+    },
+    {
+      "blue": "Lerryan Douglas",
+      "fight_id": 9274,
+      "market_p_red_devig": 0.2346,
+      "model_p_red_prefight": 0.365,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:01:37.171345+00:00",
+      "red": "Jamall Emmers",
+      "winner": "Jamall Emmers"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

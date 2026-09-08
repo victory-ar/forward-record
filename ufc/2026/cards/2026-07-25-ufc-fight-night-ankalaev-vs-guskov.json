@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-07-25",
+  "event": "UFC Fight Night: Ankalaev vs Guskov",
+  "event_id": 1061,
+  "fights": [
+    {
+      "blue": "Mike Davis",
+      "fight_id": 9091,
+      "market_p_red_devig": 0.9628,
+      "model_p_red_prefight": 0.5798,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:00:01.724917+00:00",
+      "red": "Nurullo Aliev",
+      "winner": "Nurullo Aliev"
+    },
+    {
+      "blue": "Brendson Ribeiro",
+      "fight_id": 9092,
+      "market_p_red_devig": 0.8606,
+      "model_p_red_prefight": 0.6502,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:00:11.015967+00:00",
+      "red": "Magomed Tuchalov",
+      "winner": "Magomed Tuchalov"
+    },
+    {
+      "blue": "Axel Sola",
+      "fight_id": 9093,
+      "market_p_red_devig": 0.3614,
+      "model_p_red_prefight": 0.6116,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-25T07:00:19.149011+00:00",
+      "red": "Ismael Bonfim",
+      "winner": "Axel Sola"
+    },
+    {
+      "blue": "Thomas Petersen",
+      "fight_id": 9095,
+      "market_p_red_devig": 0.5996,
+      "model_p_red_prefight": 0.5737,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:00:27.519372+00:00",
+      "red": "Valter Walker",
+      "winner": "Valter Walker"
+    },
+    {
+      "blue": "Tyrell Fortune",
+      "fight_id": 9096,
+      "market_p_red_devig": 0.7294,
+      "model_p_red_prefight": 0.7092,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:00:34.711902+00:00",
+      "red": "Rizvan Kuniev",
+      "winner": "Rizvan Kuniev"
+    },
+    {
+      "blue": "Damian Rzepecki",
+      "fight_id": 9097,
+      "market_p_red_devig": 0.6841,
+      "model_p_red_prefight": 0.5581,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:00:42.076407+00:00",
+      "red": "Magomed Zaynukov",
+      "winner": "Magomed Zaynukov"
+    },
+    {
+      "blue": "Ramazan Temirov",
+      "fight_id": 9099,
+      "market_p_red_devig": 0.5,
+      "model_p_red_prefight": 0.5163,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-25T07:00:58.102300+00:00",
+      "red": "Steve Erceg",
+      "winner": "Ramazan Temirov"
+    },
+    {
+      "blue": "Saygid Izagakhmaev",
+      "fight_id": 9103,
+      "market_p_red_devig": 0.6556,
+      "model_p_red_prefight": 0.5434,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:01:06.515694+00:00",
+      "red": "Abubakar Vagaev",
+      "winner": "Abubakar Vagaev"
+    },
+    {
+      "blue": "Bogdan Guskov",
+      "fight_id": 9104,
+      "market_p_red_devig": 0.8085,
+      "model_p_red_prefight": 0.6583,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:01:14.334697+00:00",
+      "red": "Magomed Ankalaev",
+      "winner": "Magomed Ankalaev"
+    },
+    {
+      "blue": "Sam Patterson",
+      "fight_id": 9105,
+      "market_p_red_devig": 0.1912,
+      "model_p_red_prefight": 0.4378,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-25T07:01:23.815997+00:00",
+      "red": "Santiago Ponzinibbio",
+      "winner": "Sam Patterson"
+    },
+    {
+      "blue": "Abdul Hussein",
+      "fight_id": 9119,
+      "market_p_red_devig": 0.1939,
+      "model_p_red_prefight": 0.5622,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-25T07:01:32.265182+00:00",
+      "red": "Cody Gibson",
+      "winner": "Abdul Hussein"
+    },
+    {
+      "blue": "Muhammad Said",
+      "fight_id": 9120,
+      "market_p_red_devig": 0.6274,
+      "model_p_red_prefight": 0.6326,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-25T07:01:40.496528+00:00",
+      "red": "Dustin Jacoby",
+      "winner": "Muhammad Said"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

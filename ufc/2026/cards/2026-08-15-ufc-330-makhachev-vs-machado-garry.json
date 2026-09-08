@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-08-15",
+  "event": "UFC 330: Makhachev vs Machado Garry",
+  "event_id": 1066,
+  "fights": [
+    {
+      "blue": "Eric McConico",
+      "fight_id": 9201,
+      "market_p_red_devig": 0.764,
+      "model_p_red_prefight": 0.7615,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:00:02.512253+00:00",
+      "red": "Donte Johnson",
+      "winner": "Donte Johnson"
+    },
+    {
+      "blue": "Ramiz Brahimaj",
+      "fight_id": 9202,
+      "market_p_red_devig": 0.4176,
+      "model_p_red_prefight": 0.6785,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:00:11.200372+00:00",
+      "red": "Neil Magny",
+      "winner": "Neil Magny"
+    },
+    {
+      "blue": "Tresean Gore",
+      "fight_id": 9203,
+      "market_p_red_devig": 0.4783,
+      "model_p_red_prefight": 0.6139,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-15T07:00:19.395833+00:00",
+      "red": "Vicente Luque",
+      "winner": "Tresean Gore"
+    },
+    {
+      "blue": "Myktybek Orolbai",
+      "fight_id": 9205,
+      "market_p_red_devig": 0.113,
+      "model_p_red_prefight": 0.1858,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-15T07:00:27.166820+00:00",
+      "red": "Jeremiah Wells",
+      "winner": "Jeremiah Wells"
+    },
+    {
+      "blue": "Esteban Ribovics",
+      "fight_id": 9206,
+      "market_p_red_devig": 0.1523,
+      "model_p_red_prefight": 0.3127,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:00:34.581364+00:00",
+      "red": "Edson Barboza",
+      "winner": "Esteban Ribovics"
+    },
+    {
+      "blue": "Dustin Stoltzfus",
+      "fight_id": 9207,
+      "market_p_red_devig": 0.6487,
+      "model_p_red_prefight": 0.7267,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-15T07:00:42.903275+00:00",
+      "red": "Mansur Abdul-Malik",
+      "winner": "Dustin Stoltzfus"
+    },
+    {
+      "blue": "Kaue Fernandes",
+      "fight_id": 9208,
+      "market_p_red_devig": 0.5217,
+      "model_p_red_prefight": 0.5113,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:00:50.897960+00:00",
+      "red": "Jalin Turner",
+      "winner": "Jalin Turner"
+    },
+    {
+      "blue": "Gillian Robertson",
+      "fight_id": 9209,
+      "market_p_red_devig": 0.6523,
+      "model_p_red_prefight": 0.4803,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-15T07:00:58.537372+00:00",
+      "red": "Mackenzie Dern",
+      "winner": "Mackenzie Dern"
+    },
+    {
+      "blue": "Ian Machado Garry",
+      "fight_id": 9210,
+      "market_p_red_devig": 0.7369,
+      "model_p_red_prefight": 0.5341,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:01:07.997339+00:00",
+      "red": "Islam Makhachev",
+      "winner": "Islam Makhachev"
+    },
+    {
+      "blue": "Lucas Fernando",
+      "fight_id": 9238,
+      "market_p_red_devig": 0.282,
+      "model_p_red_prefight": 0.3358,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:01:17.860456+00:00",
+      "red": "Rafael Tobias",
+      "winner": "Lucas Fernando"
+    },
+    {
+      "blue": "Joel Alvarez",
+      "fight_id": 9239,
+      "market_p_red_devig": 0.2553,
+      "model_p_red_prefight": 0.4094,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-15T07:01:25.563801+00:00",
+      "red": "Chidi Njokuani",
+      "winner": "Chidi Njokuani"
+    },
+    {
+      "blue": "Eduardo Chapolin",
+      "fight_id": 9259,
+      "market_p_red_devig": 0.5154,
+      "model_p_red_prefight": 0.633,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-15T07:01:32.753804+00:00",
+      "red": "Charles Johnson",
+      "winner": "Charles Johnson"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

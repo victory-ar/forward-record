@@ -1,0 +1,142 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-07-11",
+  "event": "UFC 329: McGregor vs Holloway 2",
+  "event_id": 1059,
+  "fights": [
+    {
+      "blue": "Terrance McKinney",
+      "fight_id": 9053,
+      "market_p_red_devig": 0.5169,
+      "model_p_red_prefight": 0.459,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-11T14:33:12.689779+00:00",
+      "red": "King Green",
+      "winner": "King Green"
+    },
+    {
+      "blue": "Cesar Almeida",
+      "fight_id": 9056,
+      "market_p_red_devig": 0.7023,
+      "model_p_red_prefight": 0.758,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:26.439099+00:00",
+      "red": "Damian Pinas",
+      "winner": "Damian Pinas"
+    },
+    {
+      "blue": "Wang Cong",
+      "fight_id": 9057,
+      "market_p_red_devig": 0.4739,
+      "model_p_red_prefight": 0.4629,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:33.309378+00:00",
+      "red": "Tracy Cortez",
+      "winner": "Wang Cong"
+    },
+    {
+      "blue": "Kai Kamaka III",
+      "fight_id": 9058,
+      "market_p_red_devig": 0.669,
+      "model_p_red_prefight": 0.5178,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:40.214170+00:00",
+      "red": "Luke Riley",
+      "winner": "Luke Riley"
+    },
+    {
+      "blue": "Adrian Yanez",
+      "fight_id": 9059,
+      "market_p_red_devig": 0.2341,
+      "model_p_red_prefight": 0.2929,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:46.835434+00:00",
+      "red": "Cody Garbrandt",
+      "winner": "Adrian Yanez"
+    },
+    {
+      "blue": "Elisha Ellison",
+      "fight_id": 9060,
+      "market_p_red_devig": 0.8881,
+      "model_p_red_prefight": 0.7905,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:52.946989+00:00",
+      "red": "Gable Steveson",
+      "winner": "Gable Steveson"
+    },
+    {
+      "blue": "Robert Whittaker",
+      "fight_id": 9061,
+      "market_p_red_devig": 0.4758,
+      "model_p_red_prefight": 0.4941,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:33:59.471352+00:00",
+      "red": "Nikita Krylov",
+      "winner": "Robert Whittaker"
+    },
+    {
+      "blue": "Lone'er Kavanagh",
+      "fight_id": 9062,
+      "market_p_red_devig": 0.3933,
+      "model_p_red_prefight": 0.3508,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-11T14:34:06.419009+00:00",
+      "red": "Brandon Royval",
+      "winner": "Brandon Royval"
+    },
+    {
+      "blue": "Mario Bautista",
+      "fight_id": 9063,
+      "market_p_red_devig": 0.5545,
+      "model_p_red_prefight": 0.3422,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:34:13.273515+00:00",
+      "red": "Cory Sandhagen",
+      "winner": "Mario Bautista"
+    },
+    {
+      "blue": "Paddy Pimblett",
+      "fight_id": 9064,
+      "market_p_red_devig": 0.5583,
+      "model_p_red_prefight": 0.7155,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-11T14:34:20.124656+00:00",
+      "red": "Benoit Saint Denis",
+      "winner": "Paddy Pimblett"
+    },
+    {
+      "blue": "Max Holloway",
+      "fight_id": 9065,
+      "market_p_red_devig": 0.273,
+      "model_p_red_prefight": 0.2721,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:34:25.640893+00:00",
+      "red": "Conor McGregor",
+      "winner": "Max Holloway"
+    },
+    {
+      "blue": "Cody Durden",
+      "fight_id": 9076,
+      "market_p_red_devig": 0.6548,
+      "model_p_red_prefight": 0.7273,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:34:30.142054+00:00",
+      "red": "Alessandro Costa",
+      "winner": "Alessandro Costa"
+    },
+    {
+      "blue": "John Garza",
+      "fight_id": 9088,
+      "market_p_red_devig": 0.5203,
+      "model_p_red_prefight": 0.7902,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-11T14:34:36.776631+00:00",
+      "red": "Farid Basharat",
+      "winner": "Farid Basharat"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 13,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

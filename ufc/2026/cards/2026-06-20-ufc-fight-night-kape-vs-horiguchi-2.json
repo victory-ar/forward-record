@@ -1,0 +1,122 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-06-20",
+  "event": "UFC Fight Night: Kape vs Horiguchi 2",
+  "event_id": 989,
+  "fights": [
+    {
+      "blue": "Luana Santos",
+      "fight_id": 8968,
+      "market_p_red_devig": 0.0789,
+      "model_p_red_prefight": 0.4737,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:00:20.053754+00:00",
+      "red": "Karol Rosa",
+      "winner": "Luana Santos"
+    },
+    {
+      "blue": "Michael Aswell Jr.",
+      "fight_id": 8969,
+      "market_p_red_devig": 0.2232,
+      "model_p_red_prefight": 0.4239,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-20T07:00:27.393275+00:00",
+      "red": "Gaston Bolanos",
+      "winner": "Gaston Bolanos"
+    },
+    {
+      "blue": "Mitch Raposo",
+      "fight_id": 8970,
+      "market_p_red_devig": 0.5721,
+      "model_p_red_prefight": 0.551,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-20T07:00:35.573550+00:00",
+      "red": "Allan Nascimento",
+      "winner": "Mitch Raposo"
+    },
+    {
+      "blue": "Murtazali Magomedov",
+      "fight_id": 8972,
+      "market_p_red_devig": 0.1912,
+      "model_p_red_prefight": 0.4502,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:00:51.063235+00:00",
+      "red": "Melsik Baghdasaryan",
+      "winner": "Murtazali Magomedov"
+    },
+    {
+      "blue": "Kevin Borjas",
+      "fight_id": 8973,
+      "market_p_red_devig": 0.23,
+      "model_p_red_prefight": 0.7222,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-20T16:00:49.365726+00:00",
+      "red": "Andre Lima",
+      "winner": "Kevin Borjas"
+    },
+    {
+      "blue": "Christian Rodriguez",
+      "fight_id": 8974,
+      "market_p_red_devig": 0.3419,
+      "model_p_red_prefight": 0.2524,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:01:07.560084+00:00",
+      "red": "Hyder Amil",
+      "winner": "Christian Rodriguez"
+    },
+    {
+      "blue": "Navajo Stirling",
+      "fight_id": 8975,
+      "market_p_red_devig": 0.2617,
+      "model_p_red_prefight": 0.3218,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:01:15.645726+00:00",
+      "red": "Ion Cutelaba",
+      "winner": "Navajo Stirling"
+    },
+    {
+      "blue": "Kyoji Horiguchi",
+      "fight_id": 8976,
+      "market_p_red_devig": 0.6164,
+      "model_p_red_prefight": 0.6772,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:01:23.844259+00:00",
+      "red": "Manel Kape",
+      "winner": "Manel Kape"
+    },
+    {
+      "blue": "Otari Tanzilovi",
+      "fight_id": 9024,
+      "market_p_red_devig": 0.6565,
+      "model_p_red_prefight": 0.5266,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:01:30.143851+00:00",
+      "red": "Shane Collins",
+      "winner": "Shane Collins"
+    },
+    {
+      "blue": "Levan Chokheli",
+      "fight_id": 9025,
+      "market_p_red_devig": 0.2232,
+      "model_p_red_prefight": 0.5261,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-20T07:01:38.157274+00:00",
+      "red": "Leon Shahbazyan",
+      "winner": "Levan Chokheli"
+    },
+    {
+      "blue": "Andre Fili",
+      "fight_id": 9026,
+      "market_p_red_devig": 0.7183,
+      "model_p_red_prefight": 0.7603,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-20T07:01:46.279062+00:00",
+      "red": "Vinicius Oliveira",
+      "winner": "Vinicius Oliveira"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 11,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

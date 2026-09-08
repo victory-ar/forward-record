@@ -1,0 +1,112 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-05-30",
+  "event": "UFC Fight Night: Song vs Figueiredo",
+  "event_id": 966,
+  "fights": [
+    {
+      "blue": "Alonzo Menifield",
+      "fight_id": 8875,
+      "market_p_red_devig": 0.6675,
+      "model_p_red_prefight": 0.5839,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-05-30T07:00:10.995886+00:00",
+      "red": "Zhang Mingyang",
+      "winner": "Alonzo Menifield"
+    },
+    {
+      "blue": "Cody Haddon",
+      "fight_id": 8876,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.3367,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:00:17.275042+00:00",
+      "red": " Aoriqileng",
+      "winner": "Cody Haddon"
+    },
+    {
+      "blue": "Deiveson Figueiredo",
+      "fight_id": 8877,
+      "market_p_red_devig": 0.8258,
+      "model_p_red_prefight": 0.7171,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:00:23.955095+00:00",
+      "red": "Song Yadong",
+      "winner": "Song Yadong"
+    },
+    {
+      "blue": "Cameron Smotherman",
+      "fight_id": 8879,
+      "market_p_red_devig": 0.7054,
+      "model_p_red_prefight": 0.3732,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-05-30T07:00:33.084146+00:00",
+      "red": "Kai Asakura",
+      "winner": "Kai Asakura"
+    },
+    {
+      "blue": "Jaqueline Amorim",
+      "fight_id": 8881,
+      "market_p_red_devig": 0.4486,
+      "model_p_red_prefight": 0.6719,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-05-30T07:00:39.894547+00:00",
+      "red": "Loma Lookboonmee",
+      "winner": "Jaqueline Amorim"
+    },
+    {
+      "blue": "Jingnan Xiong",
+      "fight_id": 8884,
+      "market_p_red_devig": 0.3918,
+      "model_p_red_prefight": 0.3919,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-05-30T07:00:53.437419+00:00",
+      "red": "Angela Hill",
+      "winner": "Angela Hill"
+    },
+    {
+      "blue": "Luis Felipe Dias",
+      "fight_id": 8887,
+      "market_p_red_devig": 0.3836,
+      "model_p_red_prefight": 0.4788,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:01:13.368241+00:00",
+      "red": "Yi Sak Lee",
+      "winner": "Luis Felipe Dias"
+    },
+    {
+      "blue": "Tallison Teixeira",
+      "fight_id": 8889,
+      "market_p_red_devig": 0.8266,
+      "model_p_red_prefight": 0.6989,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:01:27.371179+00:00",
+      "red": "Sergei Pavlovich",
+      "winner": "Sergei Pavlovich"
+    },
+    {
+      "blue": "Carlston Harris",
+      "fight_id": 8918,
+      "market_p_red_devig": 0.9594,
+      "model_p_red_prefight": 0.695,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:01:33.430448+00:00",
+      "red": "Jake Matthews",
+      "winner": "Jake Matthews"
+    },
+    {
+      "blue": "Luis Gurule",
+      "fight_id": 8947,
+      "market_p_red_devig": 0.7646,
+      "model_p_red_prefight": 0.7102,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-05-30T07:01:47.206813+00:00",
+      "red": "Rei Tsuruya",
+      "winner": "Rei Tsuruya"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 10,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

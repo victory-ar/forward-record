@@ -1,0 +1,82 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-06-15",
+  "event": "UFC Freedom 250: Topuria vs Gaethje",
+  "event_id": 811,
+  "fights": [
+    {
+      "blue": "Aiemann Zahabi",
+      "fight_id": 8647,
+      "market_p_red_devig": 0.7819,
+      "model_p_red_prefight": 0.7032,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-14T21:54:57.543553+00:00",
+      "red": "Sean O'Malley",
+      "winner": "Sean O'Malley"
+    },
+    {
+      "blue": "Josh Hokit",
+      "fight_id": 8651,
+      "market_p_red_devig": 0.2289,
+      "model_p_red_prefight": 0.3325,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-14T21:55:04.540482+00:00",
+      "red": "Derrick Lewis",
+      "winner": "Josh Hokit"
+    },
+    {
+      "blue": "Michael Chandler",
+      "fight_id": 8659,
+      "market_p_red_devig": 0.8048,
+      "model_p_red_prefight": 0.6575,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-14T21:55:09.165423+00:00",
+      "red": "Mauricio Ruffy",
+      "winner": "Mauricio Ruffy"
+    },
+    {
+      "blue": "Kyle Daukaus",
+      "fight_id": 8679,
+      "market_p_red_devig": 0.7396,
+      "model_p_red_prefight": 0.7101,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-14T21:55:15.718895+00:00",
+      "red": "Bo Nickal",
+      "winner": "Bo Nickal"
+    },
+    {
+      "blue": "Justin Gaethje",
+      "fight_id": 8704,
+      "market_p_red_devig": 0.7928,
+      "model_p_red_prefight": 0.7508,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-14T21:55:21.918933+00:00",
+      "red": "Ilia Topuria",
+      "winner": "Justin Gaethje"
+    },
+    {
+      "blue": "Diego Lopes",
+      "fight_id": 8827,
+      "market_p_red_devig": 0.417,
+      "model_p_red_prefight": 0.5484,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-14T21:55:28.096561+00:00",
+      "red": "Steve Garcia",
+      "winner": "Diego Lopes"
+    },
+    {
+      "blue": "Ciryl Gane",
+      "fight_id": 8964,
+      "market_p_red_devig": 0.5967,
+      "model_p_red_prefight": 0.3344,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-14T21:55:33.636315+00:00",
+      "red": "Alex Pereira",
+      "winner": "Ciryl Gane"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 7,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

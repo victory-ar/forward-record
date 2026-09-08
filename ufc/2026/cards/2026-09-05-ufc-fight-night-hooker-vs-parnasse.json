@@ -1,0 +1,142 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-09-05",
+  "event": "UFC Fight Night: Hooker vs Parnasse",
+  "event_id": 1072,
+  "fights": [
+    {
+      "blue": "Sofia Montenegro",
+      "fight_id": 9289,
+      "market_p_red_devig": 0.5514,
+      "model_p_red_prefight": 0.5265,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:00:01.658425+00:00",
+      "red": "Delphine Benouaich",
+      "winner": "Delphine Benouaich"
+    },
+    {
+      "blue": "Klaudia Sygula",
+      "fight_id": 9291,
+      "market_p_red_devig": 0.4675,
+      "model_p_red_prefight": 0.5363,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:00:21.326676+00:00",
+      "red": "Nora Cornolle",
+      "winner": "Nora Cornolle"
+    },
+    {
+      "blue": "Modestas Bukauskas",
+      "fight_id": 9293,
+      "market_p_red_devig": 0.6913,
+      "model_p_red_prefight": 0.7713,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:00:30.208877+00:00",
+      "red": "Oumar Sy",
+      "winner": "Modestas Bukauskas"
+    },
+    {
+      "blue": "Trevor Peek",
+      "fight_id": 9294,
+      "market_p_red_devig": 0.9469,
+      "model_p_red_prefight": 0.8822,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:00:40.131246+00:00",
+      "red": "Kurtis Campbell",
+      "winner": "Kurtis Campbell"
+    },
+    {
+      "blue": "Ryan Spann",
+      "fight_id": 9295,
+      "market_p_red_devig": 0.7322,
+      "model_p_red_prefight": 0.6293,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:00:49.188295+00:00",
+      "red": "Mario Pinto",
+      "winner": "Mario Pinto"
+    },
+    {
+      "blue": "Muhammad Naimov",
+      "fight_id": 9296,
+      "market_p_red_devig": 0.7652,
+      "model_p_red_prefight": 0.5781,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:00:57.477919+00:00",
+      "red": "Losene Keita",
+      "winner": "Losene Keita"
+    },
+    {
+      "blue": "Felipe Lima",
+      "fight_id": 9297,
+      "market_p_red_devig": 0.3477,
+      "model_p_red_prefight": 0.5511,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:01:05.407559+00:00",
+      "red": "Morgan Charriere",
+      "winner": "Felipe Lima"
+    },
+    {
+      "blue": "Nursulton Ruziboev",
+      "fight_id": 9298,
+      "market_p_red_devig": 0.6339,
+      "model_p_red_prefight": 0.4459,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:01:13.308433+00:00",
+      "red": "Michael Page",
+      "winner": "Michael Page"
+    },
+    {
+      "blue": "Axel Sola",
+      "fight_id": 9299,
+      "market_p_red_devig": 0.5828,
+      "model_p_red_prefight": 0.7662,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:01:21.515418+00:00",
+      "red": "Fares Ziam",
+      "winner": "Axel Sola"
+    },
+    {
+      "blue": "Salahdine Parnasse",
+      "fight_id": 9300,
+      "market_p_red_devig": 0.3429,
+      "model_p_red_prefight": 0.4715,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:01:29.614823+00:00",
+      "red": "Dan Hooker",
+      "winner": "Salahdine Parnasse"
+    },
+    {
+      "blue": "Fabia Sintes",
+      "fight_id": 9305,
+      "market_p_red_devig": 0.5408,
+      "model_p_red_prefight": 0.5663,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:01:39.684155+00:00",
+      "red": "Michael Aljarouj",
+      "winner": "Fabia Sintes"
+    },
+    {
+      "blue": "Punahele Soriano",
+      "fight_id": 9306,
+      "market_p_red_devig": 0.6778,
+      "model_p_red_prefight": 0.6649,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-05T07:01:47.428067+00:00",
+      "red": "Daniil Donchenko",
+      "winner": "Daniil Donchenko"
+    },
+    {
+      "blue": "Pavel Andrusca",
+      "fight_id": 9328,
+      "market_p_red_devig": 0.0271,
+      "model_p_red_prefight": 0.7686,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:01:54.171420+00:00",
+      "red": "Nathaniel Wood",
+      "winner": "Pavel Andrusca"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 13,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

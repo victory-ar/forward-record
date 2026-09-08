@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-07-18",
+  "event": "UFC Fight Night: Du Plessis vs Usman",
+  "event_id": 1060,
+  "fights": [
+    {
+      "blue": "Stewart Nicoll",
+      "fight_id": 9077,
+      "market_p_red_devig": 0.8283,
+      "model_p_red_prefight": 0.7749,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:01.866014+00:00",
+      "red": "Alden Coria",
+      "winner": "Alden Coria"
+    },
+    {
+      "blue": "Felipe Franco",
+      "fight_id": 9078,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.6471,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-18T07:00:10.772689+00:00",
+      "red": "Levi Rodrigues Jr.",
+      "winner": "Felipe Franco"
+    },
+    {
+      "blue": "Jose Miguel Delgado",
+      "fight_id": 9080,
+      "market_p_red_devig": 0.1747,
+      "model_p_red_prefight": 0.4492,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:18.246510+00:00",
+      "red": "Austin Bashi",
+      "winner": "Jose Miguel Delgado"
+    },
+    {
+      "blue": "Alberto Montes",
+      "fight_id": 9082,
+      "market_p_red_devig": 0.6575,
+      "model_p_red_prefight": 0.699,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:25.942297+00:00",
+      "red": "Tommy McMillen",
+      "winner": "Tommy McMillen"
+    },
+    {
+      "blue": "Fatima Kline",
+      "fight_id": 9083,
+      "market_p_red_devig": 0.2042,
+      "model_p_red_prefight": 0.3787,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:33.827264+00:00",
+      "red": "Tabatha Ricci",
+      "winner": "Fatima Kline"
+    },
+    {
+      "blue": "Mitch Ramirez",
+      "fight_id": 9084,
+      "market_p_red_devig": 0.7586,
+      "model_p_red_prefight": 0.8011,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:42.103539+00:00",
+      "red": "Chase Hooper",
+      "winner": "Chase Hooper"
+    },
+    {
+      "blue": "Christian Leroy Duncan",
+      "fight_id": 9086,
+      "market_p_red_devig": 0.2831,
+      "model_p_red_prefight": 0.2275,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:49.458066+00:00",
+      "red": "Jared Cannonier",
+      "winner": "Christian Leroy Duncan"
+    },
+    {
+      "blue": "Kamaru Usman",
+      "fight_id": 9087,
+      "market_p_red_devig": 0.6548,
+      "model_p_red_prefight": 0.5936,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:00:56.616853+00:00",
+      "red": "Dricus Du Plessis",
+      "winner": "Dricus Du Plessis"
+    },
+    {
+      "blue": "Seokhyeon Ko",
+      "fight_id": 9089,
+      "market_p_red_devig": 0.386,
+      "model_p_red_prefight": 0.4195,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-18T07:01:06.868877+00:00",
+      "red": "Jean-Paul Lebosnoyani",
+      "winner": "Jean-Paul Lebosnoyani"
+    },
+    {
+      "blue": "Dione Barbosa",
+      "fight_id": 9101,
+      "market_p_red_devig": 0.1671,
+      "model_p_red_prefight": 0.5168,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-07-18T07:01:14.160210+00:00",
+      "red": "Anna Melisano",
+      "winner": "Dione Barbosa"
+    },
+    {
+      "blue": "Alvin Hines",
+      "fight_id": 9102,
+      "market_p_red_devig": 0.4892,
+      "model_p_red_prefight": 0.7214,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:01:21.861760+00:00",
+      "red": "RJ Harris",
+      "winner": "RJ Harris"
+    },
+    {
+      "blue": "Damien Anderson",
+      "fight_id": 9106,
+      "market_p_red_devig": 0.4957,
+      "model_p_red_prefight": 0.5709,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-07-18T07:01:29.092274+00:00",
+      "red": "Ezra Elliott",
+      "winner": "Ezra Elliott"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

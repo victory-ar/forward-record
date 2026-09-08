@@ -1,0 +1,142 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-08-29",
+  "event": "UFC Fight Night: Nurmagomedov vs Song",
+  "event_id": 1070,
+  "fights": [
+    {
+      "blue": "Julia Polastri",
+      "fight_id": 9260,
+      "market_p_red_devig": 0.3218,
+      "model_p_red_prefight": 0.4819,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T16:01:02.167964+00:00",
+      "red": "Jingnan Xiong",
+      "winner": "Julia Polastri"
+    },
+    {
+      "blue": "Kevin Borjas",
+      "fight_id": 9261,
+      "market_p_red_devig": 0.8579,
+      "model_p_red_prefight": 0.6933,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T07:00:11.022559+00:00",
+      "red": "Rei Tsuruya",
+      "winner": "Rei Tsuruya"
+    },
+    {
+      "blue": "Sean Woodson",
+      "fight_id": 9262,
+      "market_p_red_devig": 0.4402,
+      "model_p_red_prefight": 0.519,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T16:01:10.415566+00:00",
+      "red": "Jack Jenkins",
+      "winner": "Sean Woodson"
+    },
+    {
+      "blue": "Andre Lima",
+      "fight_id": 9263,
+      "market_p_red_devig": 0.2988,
+      "model_p_red_prefight": 0.3295,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T16:01:17.061349+00:00",
+      "red": "Namsrai Batbayar",
+      "winner": "Andre Lima"
+    },
+    {
+      "blue": " Sumudaerji",
+      "fight_id": 9265,
+      "market_p_red_devig": 0.3419,
+      "model_p_red_prefight": 0.367,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T07:00:34.878796+00:00",
+      "red": "Alex Perez",
+      "winner": " Sumudaerji"
+    },
+    {
+      "blue": "Kai Asakura",
+      "fight_id": 9266,
+      "market_p_red_devig": 0.2174,
+      "model_p_red_prefight": 0.301,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T16:01:23.135849+00:00",
+      "red": " Aoriqileng",
+      "winner": "Kai Asakura"
+    },
+    {
+      "blue": "Denise Gomes",
+      "fight_id": 9267,
+      "market_p_red_devig": 0.5756,
+      "model_p_red_prefight": 0.4194,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T07:00:52.456065+00:00",
+      "red": "Yan Xiaonan",
+      "winner": "Denise Gomes"
+    },
+    {
+      "blue": "Song Yadong",
+      "fight_id": 9268,
+      "market_p_red_devig": 0.8182,
+      "model_p_red_prefight": 0.835,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T07:01:00.807592+00:00",
+      "red": "Umar Nurmagomedov",
+      "winner": "Song Yadong"
+    },
+    {
+      "blue": "Nilson Rojas",
+      "fight_id": 9285,
+      "market_p_red_devig": 0.8579,
+      "model_p_red_prefight": 0.6578,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-28T07:01:11.699848+00:00",
+      "red": "Bilal Hasan",
+      "winner": "Bilal Hasan"
+    },
+    {
+      "blue": "Hector Santiago",
+      "fight_id": 9287,
+      "market_p_red_devig": 0.7183,
+      "model_p_red_prefight": 0.618,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T07:01:27.263687+00:00",
+      "red": "Lawrence Lui",
+      "winner": "Hector Santiago"
+    },
+    {
+      "blue": "Francesco Nuzzi",
+      "fight_id": 9288,
+      "market_p_red_devig": 0.5996,
+      "model_p_red_prefight": 0.7364,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T16:01:29.921276+00:00",
+      "red": "Xiao Long",
+      "winner": "Francesco Nuzzi"
+    },
+    {
+      "blue": "Levi Rodrigues Jr.",
+      "fight_id": 9301,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.4241,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T07:01:42.960742+00:00",
+      "red": "Ce Liu",
+      "winner": "Ce Liu"
+    },
+    {
+      "blue": "Cam Nelson",
+      "fight_id": 9307,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.5693,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-28T07:01:19.336197+00:00",
+      "red": "Ding Meng",
+      "winner": "Cam Nelson"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 13,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

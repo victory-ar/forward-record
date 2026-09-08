@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-06-06",
+  "event": "UFC Fight Night: Muhammad vs Bonfim",
+  "event_id": 987,
+  "fights": [
+    {
+      "blue": "Chelsea Chandler",
+      "fight_id": 8934,
+      "market_p_red_devig": 0.4365,
+      "model_p_red_prefight": 0.5743,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-06T07:00:01.363759+00:00",
+      "red": "Priscila Cachoeira",
+      "winner": "Chelsea Chandler"
+    },
+    {
+      "blue": "Joanderson Brito",
+      "fight_id": 8935,
+      "market_p_red_devig": 0.3836,
+      "model_p_red_prefight": 0.5691,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-06T07:00:10.278139+00:00",
+      "red": "Jordan Leavitt",
+      "winner": "Joanderson Brito"
+    },
+    {
+      "blue": "Ariane Carnelossi",
+      "fight_id": 8936,
+      "market_p_red_devig": 0.7447,
+      "model_p_red_prefight": 0.6623,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:00:16.757332+00:00",
+      "red": "Ketlen Souza",
+      "winner": "Ketlen Souza"
+    },
+    {
+      "blue": "Tom Nolan",
+      "fight_id": 8937,
+      "market_p_red_devig": 0.7328,
+      "model_p_red_prefight": 0.4051,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:00:23.838618+00:00",
+      "red": "Fares Ziam",
+      "winner": "Tom Nolan"
+    },
+    {
+      "blue": "Yuneisy Duben",
+      "fight_id": 8938,
+      "market_p_red_devig": 0.9398,
+      "model_p_red_prefight": 0.5467,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:00:30.693373+00:00",
+      "red": "Jeisla Chaves",
+      "winner": "Jeisla Chaves"
+    },
+    {
+      "blue": "Edgar Chairez",
+      "fight_id": 8939,
+      "market_p_red_devig": 0.5217,
+      "model_p_red_prefight": 0.3844,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:00:37.370017+00:00",
+      "red": "Bruno Silva",
+      "winner": "Edgar Chairez"
+    },
+    {
+      "blue": "Edmen Shahbazyan",
+      "fight_id": 8944,
+      "market_p_red_devig": 0.6279,
+      "model_p_red_prefight": 0.6503,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:01:11.454103+00:00",
+      "red": "Brendan Allen",
+      "winner": "Brendan Allen"
+    },
+    {
+      "blue": "Gabriel Bonfim",
+      "fight_id": 8945,
+      "market_p_red_devig": 0.5174,
+      "model_p_red_prefight": 0.4249,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:01:18.008455+00:00",
+      "red": "Belal Muhammad",
+      "winner": "Gabriel Bonfim"
+    },
+    {
+      "blue": "John Yannis",
+      "fight_id": 8960,
+      "market_p_red_devig": 0.7654,
+      "model_p_red_prefight": 0.6967,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:01:27.242134+00:00",
+      "red": "Marcus McGhee",
+      "winner": "Marcus McGhee"
+    },
+    {
+      "blue": "Alessandro Costa",
+      "fight_id": 8961,
+      "market_p_red_devig": 0.2381,
+      "model_p_red_prefight": 0.3354,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:01:34.331843+00:00",
+      "red": "Matt Schnell",
+      "winner": "Alessandro Costa"
+    },
+    {
+      "blue": "Junior Tafa",
+      "fight_id": 8962,
+      "market_p_red_devig": 0.7796,
+      "model_p_red_prefight": 0.5784,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T16:00:29.147008+00:00",
+      "red": "Iwo Baraniewski",
+      "winner": "Iwo Baraniewski"
+    },
+    {
+      "blue": "Santiago Luna",
+      "fight_id": 8963,
+      "market_p_red_devig": 0.5217,
+      "model_p_red_prefight": 0.7141,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-06T07:01:46.263727+00:00",
+      "red": "Bryce Mitchell",
+      "winner": "Bryce Mitchell"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

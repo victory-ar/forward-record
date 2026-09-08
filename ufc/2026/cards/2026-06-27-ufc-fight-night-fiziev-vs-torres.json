@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-06-27",
+  "event": "UFC Fight Night: Fiziev vs Torres",
+  "event_id": 1030,
+  "fights": [
+    {
+      "blue": "Jean Matsumoto",
+      "fight_id": 9012,
+      "market_p_red_devig": 0.4367,
+      "model_p_red_prefight": 0.3052,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:00:01.807356+00:00",
+      "red": "Bekzat Almakhan",
+      "winner": "Jean Matsumoto"
+    },
+    {
+      "blue": "Andrey Pulyaev",
+      "fight_id": 9015,
+      "market_p_red_devig": 0.6279,
+      "model_p_red_prefight": 0.4381,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-27T07:00:26.436915+00:00",
+      "red": "Nursulton Ruziboev",
+      "winner": "Nursulton Ruziboev"
+    },
+    {
+      "blue": "Julius Walker",
+      "fight_id": 9016,
+      "market_p_red_devig": 0.8223,
+      "model_p_red_prefight": 0.6786,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:00:34.854701+00:00",
+      "red": "Abdul Rakhman Yakhyaev",
+      "winner": "Abdul Rakhman Yakhyaev"
+    },
+    {
+      "blue": "Eric Nolan",
+      "fight_id": 9017,
+      "market_p_red_devig": 0.9686,
+      "model_p_red_prefight": 0.5284,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:00:41.807645+00:00",
+      "red": "Farman Hasanov",
+      "winner": "Farman Hasanov"
+    },
+    {
+      "blue": "Michal Oleksiejczuk",
+      "fight_id": 9018,
+      "market_p_red_devig": 0.4739,
+      "model_p_red_prefight": 0.6102,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:00:49.656918+00:00",
+      "red": "Abus Magomedov",
+      "winner": "Abus Magomedov"
+    },
+    {
+      "blue": "Brunno Ferreira",
+      "fight_id": 9019,
+      "market_p_red_devig": 0.9246,
+      "model_p_red_prefight": 0.7209,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:00:55.552140+00:00",
+      "red": "Ikram Aliskerov",
+      "winner": "Ikram Aliskerov"
+    },
+    {
+      "blue": "Charles Johnson",
+      "fight_id": 9020,
+      "market_p_red_devig": null,
+      "model_p_red_prefight": 0.528,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:01:02.469806+00:00",
+      "red": "Asu Almabayev",
+      "winner": "Asu Almabayev"
+    },
+    {
+      "blue": "Matheus Camilo",
+      "fight_id": 9021,
+      "market_p_red_devig": 0.6229,
+      "model_p_red_prefight": 0.6238,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-27T07:01:10.626071+00:00",
+      "red": "Nazim Sadykhov",
+      "winner": "Matheus Camilo"
+    },
+    {
+      "blue": "Michel Pereira",
+      "fight_id": 9022,
+      "market_p_red_devig": 0.8652,
+      "model_p_red_prefight": 0.5488,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:01:18.355636+00:00",
+      "red": "Shara Magomedov",
+      "winner": "Shara Magomedov"
+    },
+    {
+      "blue": "Manuel Torres",
+      "fight_id": 9023,
+      "market_p_red_devig": 0.5,
+      "model_p_red_prefight": 0.386,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-06-27T07:01:26.437697+00:00",
+      "red": "Rafael Fiziev",
+      "winner": "Rafael Fiziev"
+    },
+    {
+      "blue": "Theodor Berggren",
+      "fight_id": 9050,
+      "market_p_red_devig": 0.8,
+      "model_p_red_prefight": 0.7024,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:01:36.505568+00:00",
+      "red": "Daniil Donchenko",
+      "winner": "Daniil Donchenko"
+    },
+    {
+      "blue": "Jefferson Nascimento",
+      "fight_id": 9051,
+      "market_p_red_devig": 0.4202,
+      "model_p_red_prefight": 0.5333,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-06-27T07:01:44.458035+00:00",
+      "red": "Tahir Abdullayev",
+      "winner": "Tahir Abdullayev"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

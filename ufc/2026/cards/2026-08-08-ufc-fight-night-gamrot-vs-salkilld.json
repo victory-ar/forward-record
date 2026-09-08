@@ -1,0 +1,102 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-08-08",
+  "event": "UFC Fight Night: Gamrot vs Salkilld",
+  "event_id": 1063,
+  "fights": [
+    {
+      "blue": "Alexia Thainara",
+      "fight_id": 9122,
+      "market_p_red_devig": 0.275,
+      "model_p_red_prefight": 0.2965,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:00:56.419085+00:00",
+      "red": "Amanda Lemos",
+      "winner": "Alexia Thainara"
+    },
+    {
+      "blue": "Guilherme Pat",
+      "fight_id": 9123,
+      "market_p_red_devig": 0.5,
+      "model_p_red_prefight": 0.5389,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T07:00:11.591335+00:00",
+      "red": "Steven Asplund",
+      "winner": "Steven Asplund"
+    },
+    {
+      "blue": "Billy Quarantillo",
+      "fight_id": 9125,
+      "market_p_red_devig": 0.8186,
+      "model_p_red_prefight": 0.6459,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:01:04.852674+00:00",
+      "red": "Diego Ferreira",
+      "winner": "Diego Ferreira"
+    },
+    {
+      "blue": "Bruno Lopes",
+      "fight_id": 9126,
+      "market_p_red_devig": 0.5861,
+      "model_p_red_prefight": 0.6593,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T07:00:34.677215+00:00",
+      "red": "Diyar Nurgozhay",
+      "winner": "Diyar Nurgozhay"
+    },
+    {
+      "blue": "Quillan Salkilld",
+      "fight_id": 9127,
+      "market_p_red_devig": 0.4244,
+      "model_p_red_prefight": 0.4402,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T07:00:41.922044+00:00",
+      "red": "Mateusz Gamrot",
+      "winner": "Quillan Salkilld"
+    },
+    {
+      "blue": "Yadier del Valle",
+      "fight_id": 9141,
+      "market_p_red_devig": 0.1279,
+      "model_p_red_prefight": 0.3923,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:01:11.874784+00:00",
+      "red": "Darren Elkins",
+      "winner": "Yadier del Valle"
+    },
+    {
+      "blue": "Billy Ray Goff",
+      "fight_id": 9142,
+      "market_p_red_devig": 0.7864,
+      "model_p_red_prefight": 0.6889,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:01:18.589598+00:00",
+      "red": "Ty Miller",
+      "winner": "Ty Miller"
+    },
+    {
+      "blue": "Ravena Oliveira",
+      "fight_id": 9143,
+      "market_p_red_devig": 0.7447,
+      "model_p_red_prefight": 0.6515,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:01:25.453784+00:00",
+      "red": "Juliana Miller",
+      "winner": "Juliana Miller"
+    },
+    {
+      "blue": "Richie Miranda",
+      "fight_id": 9222,
+      "market_p_red_devig": 0.7369,
+      "model_p_red_prefight": 0.5743,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-08-08T16:01:32.106045+00:00",
+      "red": "Manoel Sousa",
+      "winner": "Manoel Sousa"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 9,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}
