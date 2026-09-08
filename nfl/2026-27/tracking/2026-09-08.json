@@ -1,0 +1,180 @@
+{
+  "correction": {
+    "date": "2026-09-08",
+    "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
+    "url": "/insights/nfl-2026-27-pre-registration-correction"
+  },
+  "last_updated": "2026-09-08T21:18:56.521659+00:00",
+  "next_update_at": null,
+  "notes": [
+    "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
+    "Correction 2026-09-08: the backtest figures originally cited in the pre-registration were withdrawn on 2026-05-17 (feature lookahead in the audit harness). The forward test proceeds as a test of a signal whose corrected backtest is break-even or below. Full notice: /insights/nfl-2026-27-pre-registration-correction.",
+    "Every PRIME-tier bet that fires per /methodology/2026-27-predictions appears here within 24 hours of the game ending. No historical edits — all changes are append-only.",
+    "Each pick links to its corresponding research post under /research/picks where the pre-game rationale lives.",
+    "Break-even at -110 closing line: 52.4%."
+  ],
+  "picks": [
+    {
+      "actual_score": null,
+      "edge": 7.61,
+      "kickoff_utc": "2026-09-13T00:00:00+00:00",
+      "market_line": 47.5,
+      "matchup": "ARI @ LAC",
+      "model_line": 55.10569999999999,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": null,
+      "edge": 11.18,
+      "kickoff_utc": "2026-09-13T00:00:00+00:00",
+      "market_line": 44.5,
+      "matchup": "BUF @ HOU",
+      "model_line": 55.6814,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": null,
+      "edge": 10.51,
+      "kickoff_utc": "2026-09-13T00:00:00+00:00",
+      "market_line": 47.0,
+      "matchup": "CHI @ CAR",
+      "model_line": 57.506099999999996,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": null,
+      "edge": 18.4,
+      "kickoff_utc": "2026-09-13T00:00:00+00:00",
+      "market_line": 48.0,
+      "matchup": "DAL @ NYG",
+      "model_line": 66.3994,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": null,
+      "edge": 8.54,
+      "kickoff_utc": "2026-09-13T00:00:00+00:00",
+      "market_line": 39.5,
+      "matchup": "NYJ @ TEN",
+      "model_line": 48.0431,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": null,
+      "edge": 8.62,
+      "kickoff_utc": "2026-09-10T00:00:00+00:00",
+      "market_line": 48.0,
+      "matchup": "SF @ LA",
+      "model_line": 56.6176,
+      "post_url": null,
+      "result": "PENDING",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    }
+  ],
+  "preregistration_url": "/methodology/2026-27-predictions",
+  "schema_version": 1,
+  "season": "2026-27",
+  "season_status": "pre-season",
+  "tiers": [
+    {
+      "backtest": {
+        "accuracy": 0.511,
+        "ci_lower": 0.452,
+        "ci_upper": 0.57,
+        "n": null,
+        "roi": -0.025,
+        "window": "Leak-free as-of recompute 2026-05-17: spread |edge| ≥ 6 vs the close, play-grain, 2023-2025 walk-forward",
+        "withdrawn": {
+          "accuracy": 0.6283,
+          "ci_lower": 0.5636,
+          "ci_upper": 0.6887,
+          "n": 226,
+          "reason": "Withdrawn 2026-05-17: the audit harness had full-season feature lookahead and early-stopping on the test season",
+          "roi": 0.1995,
+          "window": "3-season walk-forward 2023-2025, audit of 2026-04-30"
+        }
+      },
+      "checkpoint": {
+        "current_state": "pre-season",
+        "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
+        "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
+        "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
+      },
+      "filter": "|edge| ≥ 6",
+      "forward": {
+        "accuracy": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "losses": 0,
+        "n_graded": 0,
+        "pushes": 0,
+        "roi": null,
+        "wins": 0
+      },
+      "key": "PRIME_SPREAD",
+      "label": "PRIME spread",
+      "market": "NFL spread (against the spread)"
+    },
+    {
+      "backtest": {
+        "accuracy": 0.443,
+        "ci_lower": null,
+        "ci_upper": null,
+        "n": null,
+        "roi": null,
+        "window": "Leak-free drive-grain recompute 2026-06-10: PRIME_TOT straight-up, 2023-2025 walk-forward (no CI published)",
+        "withdrawn": {
+          "accuracy": 0.635,
+          "ci_lower": 0.562,
+          "ci_upper": 0.702,
+          "n": 178,
+          "reason": "Withdrawn 2026-05-17: the audit harness had full-season feature lookahead and early-stopping on the test season",
+          "roi": 0.21,
+          "window": "3-season walk-forward 2023-2025, audit of 2026-04-30"
+        }
+      },
+      "checkpoint": {
+        "current_state": "pre-season",
+        "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
+        "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
+        "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
+      },
+      "filter": "|edge| ≥ 7",
+      "forward": {
+        "accuracy": null,
+        "ci_lower": null,
+        "ci_upper": null,
+        "losses": 0,
+        "n_graded": 0,
+        "pushes": 0,
+        "roi": null,
+        "wins": 0
+      },
+      "key": "PRIME_TOT",
+      "label": "PRIME_TOT",
+      "market": "NFL game total (over / under)"
+    }
+  ]
+}
