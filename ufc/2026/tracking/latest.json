@@ -225,7 +225,7 @@
       "su_model_priced": 5
     }
   ],
-  "last_updated": "2026-09-08T21:18:57.329373+00:00",
+  "last_updated": "2026-09-08T21:31:53.172334+00:00",
   "model_version": "ufc_ensemble_v1",
   "notes": [
     "Every fight the production model priced before the bell since the live record began, graded against the official result. A prediction counts only if it was stamped before the event's start time; nothing is back-filled and nothing is dropped.",
