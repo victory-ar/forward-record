@@ -1,0 +1,34 @@
+{
+  "away": "CHI",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 10.551200000000001
+  },
+  "game_id": "2026_01_CHI_CAR",
+  "gameday": "2026-09-13",
+  "ghost_post_id": "6aa0b0bee232f104a586ab55",
+  "ghost_published_at": "2026-09-09T01:05:02.000Z",
+  "home": "CAR",
+  "kickoff_utc": "2026-09-13T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 3.0,
+    "total": 47.0
+  },
+  "model": {
+    "home_win_prob": 0.4111,
+    "spread": 4.966040000000001,
+    "total": 57.5512
+  },
+  "recorded_at_utc": "2026-09-09T01:05:03+00:00",
+  "research_url": "/research/picks/nfl-week-1-bears-vs-panthers-2026-09-13",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 1
+}
