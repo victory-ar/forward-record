@@ -1,0 +1,34 @@
+{
+  "away": "NYJ",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 8.992899999999999
+  },
+  "game_id": "2026_01_NYJ_TEN",
+  "gameday": "2026-09-13",
+  "ghost_post_id": "6aa0b0c3e232f104a586ab65",
+  "ghost_published_at": "2026-09-09T01:05:07.000Z",
+  "home": "TEN",
+  "kickoff_utc": "2026-09-13T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -1.5,
+    "total": 39.5
+  },
+  "model": {
+    "home_win_prob": 0.4748,
+    "spread": 1.010224999999998,
+    "total": 48.4929
+  },
+  "recorded_at_utc": "2026-09-09T01:05:07+00:00",
+  "research_url": "/research/picks/nfl-week-1-jets-vs-titans-2026-09-13",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 1
+}
