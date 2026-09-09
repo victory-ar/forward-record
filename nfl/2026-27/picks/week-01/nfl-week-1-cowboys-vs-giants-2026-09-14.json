@@ -1,0 +1,34 @@
+{
+  "away": "DAL",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 18.483900000000006
+  },
+  "game_id": "2026_01_DAL_NYG",
+  "gameday": "2026-09-13",
+  "ghost_post_id": "6aa0b0c7e232f104a586ab75",
+  "ghost_published_at": "2026-09-09T01:05:11.000Z",
+  "home": "NYG",
+  "kickoff_utc": "2026-09-14T00:20:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 3.0,
+    "total": 48.0
+  },
+  "model": {
+    "home_win_prob": 0.4118,
+    "spread": 3.8580649999999985,
+    "total": 66.4839
+  },
+  "recorded_at_utc": "2026-09-09T01:05:12+00:00",
+  "research_url": "/research/picks/nfl-week-1-cowboys-vs-giants-2026-09-14",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 1
+}
