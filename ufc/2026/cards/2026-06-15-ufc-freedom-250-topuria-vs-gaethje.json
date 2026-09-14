@@ -17,7 +17,7 @@
     {
       "blue": "Josh Hokit",
       "fight_id": 8651,
-      "market_p_red_devig": 0.2289,
+      "market_p_red_devig": 0.2,
       "model_p_red_prefight": 0.3325,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-14T21:55:04.540482+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Michael Chandler",
       "fight_id": 8659,
-      "market_p_red_devig": 0.8048,
+      "market_p_red_devig": 0.8033,
       "model_p_red_prefight": 0.6575,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-14T21:55:09.165423+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Kyle Daukaus",
       "fight_id": 8679,
-      "market_p_red_devig": 0.7396,
+      "market_p_red_devig": 0.7258,
       "model_p_red_prefight": 0.7101,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-14T21:55:15.718895+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Justin Gaethje",
       "fight_id": 8704,
-      "market_p_red_devig": 0.7928,
+      "market_p_red_devig": 0.7914,
       "model_p_red_prefight": 0.7508,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-14T21:55:21.918933+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Ciryl Gane",
       "fight_id": 8964,
-      "market_p_red_devig": 0.5967,
+      "market_p_red_devig": 0.6067,
       "model_p_red_prefight": 0.3344,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-14T21:55:33.636315+00:00",

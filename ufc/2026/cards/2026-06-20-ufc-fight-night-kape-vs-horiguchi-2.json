@@ -7,7 +7,7 @@
     {
       "blue": "Luana Santos",
       "fight_id": 8968,
-      "market_p_red_devig": 0.0789,
+      "market_p_red_devig": 0.0238,
       "model_p_red_prefight": 0.4737,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:00:20.053754+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Michael Aswell Jr.",
       "fight_id": 8969,
-      "market_p_red_devig": 0.2232,
+      "market_p_red_devig": 0.2277,
       "model_p_red_prefight": 0.4239,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-20T07:00:27.393275+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Murtazali Magomedov",
       "fight_id": 8972,
-      "market_p_red_devig": 0.1912,
+      "market_p_red_devig": 0.2,
       "model_p_red_prefight": 0.4502,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:00:51.063235+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Kevin Borjas",
       "fight_id": 8973,
-      "market_p_red_devig": 0.23,
+      "market_p_red_devig": 0.2941,
       "model_p_red_prefight": 0.7222,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-20T16:00:49.365726+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Christian Rodriguez",
       "fight_id": 8974,
-      "market_p_red_devig": 0.3419,
+      "market_p_red_devig": 0.3435,
       "model_p_red_prefight": 0.2524,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:01:07.560084+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Navajo Stirling",
       "fight_id": 8975,
-      "market_p_red_devig": 0.2617,
+      "market_p_red_devig": 0.2665,
       "model_p_red_prefight": 0.3218,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:01:15.645726+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Otari Tanzilovi",
       "fight_id": 9024,
-      "market_p_red_devig": 0.6565,
+      "market_p_red_devig": 0.6632,
       "model_p_red_prefight": 0.5266,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:01:30.143851+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Levan Chokheli",
       "fight_id": 9025,
-      "market_p_red_devig": 0.2232,
+      "market_p_red_devig": 0.2277,
       "model_p_red_prefight": 0.5261,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-20T07:01:38.157274+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Andre Fili",
       "fight_id": 9026,
-      "market_p_red_devig": 0.7183,
+      "market_p_red_devig": 0.7136,
       "model_p_red_prefight": 0.7603,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-20T07:01:46.279062+00:00",

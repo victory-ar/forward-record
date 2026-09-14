@@ -17,7 +17,7 @@
     {
       "blue": "Cesar Almeida",
       "fight_id": 9056,
-      "market_p_red_devig": 0.7023,
+      "market_p_red_devig": 0.7086,
       "model_p_red_prefight": 0.758,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:33:26.439099+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Kai Kamaka III",
       "fight_id": 9058,
-      "market_p_red_devig": 0.669,
+      "market_p_red_devig": 0.7023,
       "model_p_red_prefight": 0.5178,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:33:40.214170+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Adrian Yanez",
       "fight_id": 9059,
-      "market_p_red_devig": 0.2341,
+      "market_p_red_devig": 0.2285,
       "model_p_red_prefight": 0.2929,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:33:46.835434+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Elisha Ellison",
       "fight_id": 9060,
-      "market_p_red_devig": 0.8881,
+      "market_p_red_devig": 0.887,
       "model_p_red_prefight": 0.7905,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:33:52.946989+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Lone'er Kavanagh",
       "fight_id": 9062,
-      "market_p_red_devig": 0.3933,
+      "market_p_red_devig": 0.3172,
       "model_p_red_prefight": 0.3508,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-11T14:34:06.419009+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Mario Bautista",
       "fight_id": 9063,
-      "market_p_red_devig": 0.5545,
+      "market_p_red_devig": 0.5678,
       "model_p_red_prefight": 0.3422,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:34:13.273515+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Paddy Pimblett",
       "fight_id": 9064,
-      "market_p_red_devig": 0.5583,
+      "market_p_red_devig": 0.5564,
       "model_p_red_prefight": 0.7155,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-11T14:34:20.124656+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Max Holloway",
       "fight_id": 9065,
-      "market_p_red_devig": 0.273,
+      "market_p_red_devig": 0.2598,
       "model_p_red_prefight": 0.2721,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:34:25.640893+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Cody Durden",
       "fight_id": 9076,
-      "market_p_red_devig": 0.6548,
+      "market_p_red_devig": 0.669,
       "model_p_red_prefight": 0.7273,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-11T14:34:30.142054+00:00",

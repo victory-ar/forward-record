@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-09-12",
+  "event": "Noche UFC: Silva vs Delgado",
+  "event_id": 1074,
+  "fights": [
+    {
+      "blue": "Regina Tarin",
+      "fight_id": 9308,
+      "market_p_red_devig": 0.288,
+      "model_p_red_prefight": 0.3709,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:00:02.496138+00:00",
+      "red": "JJ Aldrich",
+      "winner": "Regina Tarin"
+    },
+    {
+      "blue": " Rongzhu",
+      "fight_id": 9309,
+      "market_p_red_devig": 0.4143,
+      "model_p_red_prefight": 0.6264,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-12T07:00:12.689703+00:00",
+      "red": "Rafa Garcia",
+      "winner": " Rongzhu"
+    },
+    {
+      "blue": "Djorden Santos",
+      "fight_id": 9311,
+      "market_p_red_devig": 0.8883,
+      "model_p_red_prefight": 0.7611,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:00:29.658370+00:00",
+      "red": "Yousri Belgaroui",
+      "winner": "Yousri Belgaroui"
+    },
+    {
+      "blue": "Muslim Salikhov",
+      "fight_id": 9312,
+      "market_p_red_devig": 0.8182,
+      "model_p_red_prefight": 0.675,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:00:37.436285+00:00",
+      "red": "Ignacio Bahamondes",
+      "winner": "Ignacio Bahamondes"
+    },
+    {
+      "blue": "Edgar Chairez",
+      "fight_id": 9313,
+      "market_p_red_devig": 0.3717,
+      "model_p_red_prefight": 0.3546,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-12T07:00:46.503467+00:00",
+      "red": "Tim Elliott",
+      "winner": "Tim Elliott"
+    },
+    {
+      "blue": "Dan Ige",
+      "fight_id": 9314,
+      "market_p_red_devig": 0.7931,
+      "model_p_red_prefight": 0.7703,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:00:54.842688+00:00",
+      "red": "David Martinez",
+      "winner": "David Martinez"
+    },
+    {
+      "blue": "Curtis Blaydes",
+      "fight_id": 9315,
+      "market_p_red_devig": 0.3639,
+      "model_p_red_prefight": 0.5351,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-12T07:01:03.753240+00:00",
+      "red": "Waldo Cortes Acosta",
+      "winner": "Curtis Blaydes"
+    },
+    {
+      "blue": "Alexa Grasso",
+      "fight_id": 9316,
+      "market_p_red_devig": 0.7086,
+      "model_p_red_prefight": 0.6254,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-12T07:01:09.916269+00:00",
+      "red": "Manon Fiorot",
+      "winner": "Alexa Grasso"
+    },
+    {
+      "blue": "Marwan Rahiki",
+      "fight_id": 9317,
+      "market_p_red_devig": 0.5991,
+      "model_p_red_prefight": 0.4916,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-12T07:01:18.828838+00:00",
+      "red": "Tommy McMillen",
+      "winner": "Tommy McMillen"
+    },
+    {
+      "blue": "Joseph Morales",
+      "fight_id": 9318,
+      "market_p_red_devig": 0.891,
+      "model_p_red_prefight": 0.7111,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:01:26.797308+00:00",
+      "red": "Brandon Moreno",
+      "winner": "Brandon Moreno"
+    },
+    {
+      "blue": "Jessie Rosas",
+      "fight_id": 9342,
+      "market_p_red_devig": 0.6621,
+      "model_p_red_prefight": 0.5414,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:01:45.741001+00:00",
+      "red": "Sean King",
+      "winner": "Sean King"
+    },
+    {
+      "blue": "Tommy Gantt",
+      "fight_id": 9343,
+      "market_p_red_devig": 0.2443,
+      "model_p_red_prefight": 0.4354,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:01:53.809544+00:00",
+      "red": "Drakkar Klose",
+      "winner": "Tommy Gantt"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

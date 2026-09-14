@@ -7,7 +7,7 @@
     {
       "blue": "Jean Matsumoto",
       "fight_id": 9012,
-      "market_p_red_devig": 0.4367,
+      "market_p_red_devig": 0.5,
       "model_p_red_prefight": 0.3052,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:00:01.807356+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Andrey Pulyaev",
       "fight_id": 9015,
-      "market_p_red_devig": 0.6279,
+      "market_p_red_devig": 0.6361,
       "model_p_red_prefight": 0.4381,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-27T07:00:26.436915+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Julius Walker",
       "fight_id": 9016,
-      "market_p_red_devig": 0.8223,
+      "market_p_red_devig": 0.8119,
       "model_p_red_prefight": 0.6786,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:00:34.854701+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Eric Nolan",
       "fight_id": 9017,
-      "market_p_red_devig": 0.9686,
+      "market_p_red_devig": 0.9349,
       "model_p_red_prefight": 0.5284,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:00:41.807645+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Michal Oleksiejczuk",
       "fight_id": 9018,
-      "market_p_red_devig": 0.4739,
+      "market_p_red_devig": 0.4573,
       "model_p_red_prefight": 0.6102,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:00:49.656918+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Brunno Ferreira",
       "fight_id": 9019,
-      "market_p_red_devig": 0.9246,
+      "market_p_red_devig": 0.9518,
       "model_p_red_prefight": 0.7209,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:00:55.552140+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Matheus Camilo",
       "fight_id": 9021,
-      "market_p_red_devig": 0.6229,
+      "market_p_red_devig": 0.6164,
       "model_p_red_prefight": 0.6238,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-27T07:01:10.626071+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Manuel Torres",
       "fight_id": 9023,
-      "market_p_red_devig": 0.5,
+      "market_p_red_devig": 0.4892,
       "model_p_red_prefight": 0.386,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-27T07:01:26.437697+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Theodor Berggren",
       "fight_id": 9050,
-      "market_p_red_devig": 0.8,
+      "market_p_red_devig": 0.8082,
       "model_p_red_prefight": 0.7024,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:01:36.505568+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Jefferson Nascimento",
       "fight_id": 9051,
-      "market_p_red_devig": 0.4202,
+      "market_p_red_devig": 0.4255,
       "model_p_red_prefight": 0.5333,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-27T07:01:44.458035+00:00",

@@ -7,7 +7,7 @@
     {
       "blue": "Sofia Montenegro",
       "fight_id": 9289,
-      "market_p_red_devig": 0.5514,
+      "market_p_red_devig": 0.5537,
       "model_p_red_prefight": 0.5265,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:01.658425+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Klaudia Sygula",
       "fight_id": 9291,
-      "market_p_red_devig": 0.4675,
+      "market_p_red_devig": 0.4613,
       "model_p_red_prefight": 0.5363,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:21.326676+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Modestas Bukauskas",
       "fight_id": 9293,
-      "market_p_red_devig": 0.6913,
+      "market_p_red_devig": 0.6742,
       "model_p_red_prefight": 0.7713,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:00:30.208877+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Trevor Peek",
       "fight_id": 9294,
-      "market_p_red_devig": 0.9469,
+      "market_p_red_devig": 0.9349,
       "model_p_red_prefight": 0.8822,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:40.131246+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Ryan Spann",
       "fight_id": 9295,
-      "market_p_red_devig": 0.7322,
+      "market_p_red_devig": 0.7434,
       "model_p_red_prefight": 0.6293,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:49.188295+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Muhammad Naimov",
       "fight_id": 9296,
-      "market_p_red_devig": 0.7652,
+      "market_p_red_devig": 0.7664,
       "model_p_red_prefight": 0.5781,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:57.477919+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Fabia Sintes",
       "fight_id": 9305,
-      "market_p_red_devig": 0.5408,
+      "market_p_red_devig": 0.5328,
       "model_p_red_prefight": 0.5663,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:39.684155+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Punahele Soriano",
       "fight_id": 9306,
-      "market_p_red_devig": 0.6778,
+      "market_p_red_devig": 0.68,
       "model_p_red_prefight": 0.6649,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:01:47.428067+00:00",
@@ -127,7 +127,7 @@
     {
       "blue": "Pavel Andrusca",
       "fight_id": 9328,
-      "market_p_red_devig": 0.0271,
+      "market_p_red_devig": 0.1186,
       "model_p_red_prefight": 0.7686,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:54.171420+00:00",
