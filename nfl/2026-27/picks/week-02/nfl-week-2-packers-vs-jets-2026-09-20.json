@@ -1,0 +1,34 @@
+{
+  "away": "GB",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 2.6715000000000018
+  },
+  "game_id": "2026_02_GB_NYJ",
+  "gameday": "2026-09-20",
+  "ghost_post_id": "6aaa1573121c6651d1f89f77",
+  "ghost_published_at": "2026-09-16T04:05:07.000Z",
+  "home": "NYJ",
+  "kickoff_utc": "2026-09-20T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 3.5,
+    "total": 44.5
+  },
+  "model": {
+    "home_win_prob": 0.2936,
+    "spread": 9.619365,
+    "total": 47.1715
+  },
+  "recorded_at_utc": "2026-09-16T04:05:07+00:00",
+  "research_url": "/research/picks/nfl-week-2-packers-vs-jets-2026-09-20",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": "PRIME",
+    "total": null
+  },
+  "totals_side": "over",
+  "week": 2
+}
