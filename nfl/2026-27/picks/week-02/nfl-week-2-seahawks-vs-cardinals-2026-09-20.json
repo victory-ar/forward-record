@@ -1,0 +1,34 @@
+{
+  "away": "SEA",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 8.042899999999996
+  },
+  "game_id": "2026_02_SEA_ARI",
+  "gameday": "2026-09-20",
+  "ghost_post_id": "6aaa1575121c6651d1f89f7f",
+  "ghost_published_at": "2026-09-16T04:05:09.000Z",
+  "home": "ARI",
+  "kickoff_utc": "2026-09-20T20:25:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 4.0,
+    "total": 41.5
+  },
+  "model": {
+    "home_win_prob": 0.2936,
+    "spread": 7.852384999999999,
+    "total": 49.542899999999996
+  },
+  "recorded_at_utc": "2026-09-16T04:05:09+00:00",
+  "research_url": "/research/picks/nfl-week-2-seahawks-vs-cardinals-2026-09-20",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 2
+}
