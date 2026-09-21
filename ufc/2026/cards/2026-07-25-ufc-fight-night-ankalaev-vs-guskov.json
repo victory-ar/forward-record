@@ -37,7 +37,7 @@
     {
       "blue": "Thomas Petersen",
       "fight_id": 9095,
-      "market_p_red_devig": 0.6102,
+      "market_p_red_devig": 0.5996,
       "model_p_red_prefight": 0.5737,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-25T07:00:27.519372+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": "Tyrell Fortune",
       "fight_id": 9096,
-      "market_p_red_devig": 0.7355,
+      "market_p_red_devig": 0.728,
       "model_p_red_prefight": 0.7092,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-25T07:00:34.711902+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Ramazan Temirov",
       "fight_id": 9099,
-      "market_p_red_devig": 0.4805,
+      "market_p_red_devig": 0.4783,
       "model_p_red_prefight": 0.5163,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-25T07:00:58.102300+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Saygid Izagakhmaev",
       "fight_id": 9103,
-      "market_p_red_devig": 0.6283,
+      "market_p_red_devig": 0.6778,
       "model_p_red_prefight": 0.5434,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-25T07:01:06.515694+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Bogdan Guskov",
       "fight_id": 9104,
-      "market_p_red_devig": 0.8119,
+      "market_p_red_devig": 0.8082,
       "model_p_red_prefight": 0.6583,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-25T07:01:14.334697+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Sam Patterson",
       "fight_id": 9105,
-      "market_p_red_devig": 0.1818,
+      "market_p_red_devig": 0.2042,
       "model_p_red_prefight": 0.4378,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-25T07:01:23.815997+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Muhammad Said",
       "fight_id": 9120,
-      "market_p_red_devig": 0.614,
+      "market_p_red_devig": 0.6164,
       "model_p_red_prefight": 0.6326,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-25T07:01:40.496528+00:00",

@@ -7,7 +7,7 @@
     {
       "blue": "Sofia Montenegro",
       "fight_id": 9289,
-      "market_p_red_devig": 0.5537,
+      "market_p_red_devig": 0.5467,
       "model_p_red_prefight": 0.5265,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:01.658425+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Klaudia Sygula",
       "fight_id": 9291,
-      "market_p_red_devig": 0.4613,
+      "market_p_red_devig": 0.4926,
       "model_p_red_prefight": 0.5363,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:21.326676+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Trevor Peek",
       "fight_id": 9294,
-      "market_p_red_devig": 0.9349,
+      "market_p_red_devig": 0.9252,
       "model_p_red_prefight": 0.8822,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-05T07:00:40.131246+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Felipe Lima",
       "fight_id": 9297,
-      "market_p_red_devig": 0.3477,
+      "market_p_red_devig": 0.3518,
       "model_p_red_prefight": 0.5511,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:05.407559+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Nursulton Ruziboev",
       "fight_id": 9298,
-      "market_p_red_devig": 0.6339,
+      "market_p_red_devig": 0.6447,
       "model_p_red_prefight": 0.4459,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:13.308433+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Axel Sola",
       "fight_id": 9299,
-      "market_p_red_devig": 0.5828,
+      "market_p_red_devig": 0.5798,
       "model_p_red_prefight": 0.7662,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:21.515418+00:00",
@@ -127,7 +127,7 @@
     {
       "blue": "Pavel Andrusca",
       "fight_id": 9328,
-      "market_p_red_devig": 0.1186,
+      "market_p_red_devig": 0.0776,
       "model_p_red_prefight": 0.7686,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-05T07:01:54.171420+00:00",

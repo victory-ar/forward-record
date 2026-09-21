@@ -7,7 +7,7 @@
     {
       "blue": "Chelsea Chandler",
       "fight_id": 8934,
-      "market_p_red_devig": 0.4417,
+      "market_p_red_devig": 0.4573,
       "model_p_red_prefight": 0.5743,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-06T07:00:01.363759+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Joanderson Brito",
       "fight_id": 8935,
-      "market_p_red_devig": 0.4592,
+      "market_p_red_devig": 0.4007,
       "model_p_red_prefight": 0.5691,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-06-06T07:00:10.278139+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Ariane Carnelossi",
       "fight_id": 8936,
-      "market_p_red_devig": 0.7528,
+      "market_p_red_devig": 0.7478,
       "model_p_red_prefight": 0.6623,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:00:16.757332+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Tom Nolan",
       "fight_id": 8937,
-      "market_p_red_devig": 0.731,
+      "market_p_red_devig": 0.7286,
       "model_p_red_prefight": 0.4051,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:00:23.838618+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Edgar Chairez",
       "fight_id": 8939,
-      "market_p_red_devig": 0.5261,
+      "market_p_red_devig": 0.5108,
       "model_p_red_prefight": 0.3844,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:00:37.370017+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Edmen Shahbazyan",
       "fight_id": 8944,
-      "market_p_red_devig": 0.7229,
+      "market_p_red_devig": 0.7956,
       "model_p_red_prefight": 0.6503,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:01:11.454103+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Gabriel Bonfim",
       "fight_id": 8945,
-      "market_p_red_devig": 0.5154,
+      "market_p_red_devig": 0.5,
       "model_p_red_prefight": 0.4249,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:01:18.008455+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "John Yannis",
       "fight_id": 8960,
-      "market_p_red_devig": 0.7723,
+      "market_p_red_devig": 0.7548,
       "model_p_red_prefight": 0.6967,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T07:01:27.242134+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Junior Tafa",
       "fight_id": 8962,
-      "market_p_red_devig": 0.778,
+      "market_p_red_devig": 0.7776,
       "model_p_red_prefight": 0.5784,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-06-06T16:00:29.147008+00:00",

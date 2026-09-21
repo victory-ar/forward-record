@@ -27,7 +27,7 @@
     {
       "blue": "Djorden Santos",
       "fight_id": 9311,
-      "market_p_red_devig": 0.8883,
+      "market_p_red_devig": 0.8642,
       "model_p_red_prefight": 0.7611,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-12T07:00:29.658370+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Dan Ige",
       "fight_id": 9314,
-      "market_p_red_devig": 0.7931,
+      "market_p_red_devig": 0.7692,
       "model_p_red_prefight": 0.7703,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-12T07:00:54.842688+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Curtis Blaydes",
       "fight_id": 9315,
-      "market_p_red_devig": 0.3639,
+      "market_p_red_devig": null,
       "model_p_red_prefight": 0.5351,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-12T07:01:03.753240+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Alexa Grasso",
       "fight_id": 9316,
-      "market_p_red_devig": 0.7086,
+      "market_p_red_devig": 0.7224,
       "model_p_red_prefight": 0.6254,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-12T07:01:09.916269+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Marwan Rahiki",
       "fight_id": 9317,
-      "market_p_red_devig": 0.5991,
+      "market_p_red_devig": 0.5971,
       "model_p_red_prefight": 0.4916,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-09-12T07:01:18.828838+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Joseph Morales",
       "fight_id": 9318,
-      "market_p_red_devig": 0.891,
+      "market_p_red_devig": 0.905,
       "model_p_red_prefight": 0.7111,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-12T07:01:26.797308+00:00",
@@ -105,9 +105,19 @@
       "winner": "Brandon Moreno"
     },
     {
+      "blue": "Jose Delgado",
+      "fight_id": 9319,
+      "market_p_red_devig": 0.7723,
+      "model_p_red_prefight": 0.5164,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-12T07:01:35.152693+00:00",
+      "red": "Jean Silva",
+      "winner": "Jean Silva"
+    },
+    {
       "blue": "Jessie Rosas",
       "fight_id": 9342,
-      "market_p_red_devig": 0.6621,
+      "market_p_red_devig": 0.6575,
       "model_p_red_prefight": 0.5414,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-12T07:01:45.741001+00:00",
@@ -117,7 +127,7 @@
     {
       "blue": "Tommy Gantt",
       "fight_id": 9343,
-      "market_p_red_devig": 0.2443,
+      "market_p_red_devig": 0.2492,
       "model_p_red_prefight": 0.4354,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-09-12T07:01:53.809544+00:00",
@@ -127,6 +137,6 @@
   ],
   "kind": "ufc_card_graded",
   "model_version": "ufc_ensemble_v1",
-  "n_fights": 12,
+  "n_fights": 13,
   "source": "scripts/export_ufc_forward_tracking.py"
 }

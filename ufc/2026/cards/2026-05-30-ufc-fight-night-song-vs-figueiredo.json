@@ -27,7 +27,7 @@
     {
       "blue": "Deiveson Figueiredo",
       "fight_id": 8877,
-      "market_p_red_devig": 0.8258,
+      "market_p_red_devig": 0.8241,
       "model_p_red_prefight": 0.7171,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-05-30T07:00:23.955095+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Cameron Smotherman",
       "fight_id": 8879,
-      "market_p_red_devig": 0.6958,
+      "market_p_red_devig": 0.7054,
       "model_p_red_prefight": 0.3732,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-05-30T07:00:33.084146+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Jingnan Xiong",
       "fight_id": 8884,
-      "market_p_red_devig": 0.3889,
+      "market_p_red_devig": 0.3836,
       "model_p_red_prefight": 0.3919,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-05-30T07:00:53.437419+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Tallison Teixeira",
       "fight_id": 8889,
-      "market_p_red_devig": 0.8271,
+      "market_p_red_devig": 0.84,
       "model_p_red_prefight": 0.6989,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-05-30T07:01:27.371179+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Carlston Harris",
       "fight_id": 8918,
-      "market_p_red_devig": 0.9544,
+      "market_p_red_devig": 0.9613,
       "model_p_red_prefight": 0.695,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-05-30T07:01:33.430448+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Luis Gurule",
       "fight_id": 8947,
-      "market_p_red_devig": 0.7646,
+      "market_p_red_devig": 0.7659,
       "model_p_red_prefight": 0.7102,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-05-30T07:01:47.206813+00:00",

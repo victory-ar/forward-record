@@ -1,0 +1,132 @@
+{
+  "convention": "probabilities are P(red corner wins); predicted_at_utc is the latest model run before the event start time",
+  "date": "2026-09-19",
+  "event": "UFC 331: Van vs Pantoja 2",
+  "event_id": 1076,
+  "fights": [
+    {
+      "blue": "Joanderson Brito",
+      "fight_id": 9329,
+      "market_p_red_devig": 0.2252,
+      "model_p_red_prefight": 0.5448,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:00:02.405662+00:00",
+      "red": "Giga Chikadze",
+      "winner": "Joanderson Brito"
+    },
+    {
+      "blue": "Eduarda Moura",
+      "fight_id": 9330,
+      "market_p_red_devig": 0.6704,
+      "model_p_red_prefight": 0.4758,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:00:13.377019+00:00",
+      "red": "Casey O'Neill",
+      "winner": "Casey O'Neill"
+    },
+    {
+      "blue": "Brunno Ferreira",
+      "fight_id": 9331,
+      "market_p_red_devig": 0.6301,
+      "model_p_red_prefight": 0.7587,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-19T07:00:22.167214+00:00",
+      "red": "Edmen Shahbazyan",
+      "winner": "Edmen Shahbazyan"
+    },
+    {
+      "blue": "Ozzy Diaz",
+      "fight_id": 9332,
+      "market_p_red_devig": 0.8088,
+      "model_p_red_prefight": 0.7482,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-19T07:00:29.712803+00:00",
+      "red": "Ryan Gandra",
+      "winner": "Ryan Gandra"
+    },
+    {
+      "blue": "JooSang Yoo",
+      "fight_id": 9333,
+      "market_p_red_devig": 0.7169,
+      "model_p_red_prefight": 0.3375,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:00:38.449516+00:00",
+      "red": "Michael Aswell Jr.",
+      "winner": "Michael Aswell Jr."
+    },
+    {
+      "blue": "Robelis Despaigne",
+      "fight_id": 9334,
+      "market_p_red_devig": 0.2174,
+      "model_p_red_prefight": 0.3324,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-19T07:00:48.236717+00:00",
+      "red": "Tai Tuivasa",
+      "winner": "Robelis Despaigne"
+    },
+    {
+      "blue": "Charles Jourdain",
+      "fight_id": 9335,
+      "market_p_red_devig": 0.3631,
+      "model_p_red_prefight": 0.2862,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:00:57.127368+00:00",
+      "red": "Marlon Vera",
+      "winner": "Marlon Vera"
+    },
+    {
+      "blue": "Sean Sharaf",
+      "fight_id": 9336,
+      "market_p_red_devig": 0.8944,
+      "model_p_red_prefight": 0.6602,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:01:06.315451+00:00",
+      "red": "Gable Steveson",
+      "winner": "Sean Sharaf"
+    },
+    {
+      "blue": "Iwo Baraniewski",
+      "fight_id": 9337,
+      "market_p_red_devig": 0.3136,
+      "model_p_red_prefight": 0.3532,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:01:14.646934+00:00",
+      "red": "Alonzo Menifield",
+      "winner": "Alonzo Menifield"
+    },
+    {
+      "blue": "Dooho Choi",
+      "fight_id": 9339,
+      "market_p_red_devig": 0.284,
+      "model_p_red_prefight": 0.3048,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-19T07:01:22.239027+00:00",
+      "red": "Patricio Pitbull",
+      "winner": "Patricio Pitbull"
+    },
+    {
+      "blue": "Mauricio Ruffy",
+      "fight_id": 9340,
+      "market_p_red_devig": 0.7221,
+      "model_p_red_prefight": 0.8784,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-19T07:01:29.262700+00:00",
+      "red": "Arman Tsarukyan",
+      "winner": "Arman Tsarukyan"
+    },
+    {
+      "blue": "Alexandre Pantoja",
+      "fight_id": 9341,
+      "market_p_red_devig": 0.9686,
+      "model_p_red_prefight": 0.8124,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-09-19T07:01:40.867648+00:00",
+      "red": "Joshua Van",
+      "winner": "Joshua Van"
+    }
+  ],
+  "kind": "ufc_card_graded",
+  "model_version": "ufc_ensemble_v1",
+  "n_fights": 12,
+  "source": "scripts/export_ufc_forward_tracking.py"
+}

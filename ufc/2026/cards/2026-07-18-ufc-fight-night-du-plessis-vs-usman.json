@@ -17,7 +17,7 @@
     {
       "blue": "Felipe Franco",
       "fight_id": 9078,
-      "market_p_red_devig": null,
+      "market_p_red_devig": 0.5756,
       "model_p_red_prefight": 0.6471,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-18T07:00:10.772689+00:00",
@@ -25,19 +25,19 @@
       "winner": "Felipe Franco"
     },
     {
-      "blue": "Jose Miguel Delgado",
+      "blue": "Jose Delgado",
       "fight_id": 9080,
-      "market_p_red_devig": 0.1709,
+      "market_p_red_devig": 0.1562,
       "model_p_red_prefight": 0.4492,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:18.246510+00:00",
       "red": "Austin Bashi",
-      "winner": "Jose Miguel Delgado"
+      "winner": "Jose Delgado"
     },
     {
       "blue": "Alberto Montes",
       "fight_id": 9082,
-      "market_p_red_devig": 0.6613,
+      "market_p_red_devig": 0.6447,
       "model_p_red_prefight": 0.699,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:25.942297+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Mitch Ramirez",
       "fight_id": 9084,
-      "market_p_red_devig": 0.7524,
+      "market_p_red_devig": 0.7646,
       "model_p_red_prefight": 0.8011,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:42.103539+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Christian Leroy Duncan",
       "fight_id": 9086,
-      "market_p_red_devig": 0.2831,
+      "market_p_red_devig": 0.234,
       "model_p_red_prefight": 0.2275,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:49.458066+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Seokhyeon Ko",
       "fight_id": 9089,
-      "market_p_red_devig": 0.386,
+      "market_p_red_devig": 0.406,
       "model_p_red_prefight": 0.4195,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-18T07:01:06.868877+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Dione Barbosa",
       "fight_id": 9101,
-      "market_p_red_devig": 0.1742,
+      "market_p_red_devig": 0.1671,
       "model_p_red_prefight": 0.5168,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-18T07:01:14.160210+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Damien Anderson",
       "fight_id": 9106,
-      "market_p_red_devig": 0.4783,
+      "market_p_red_devig": 0.4802,
       "model_p_red_prefight": 0.5709,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:01:29.092274+00:00",
