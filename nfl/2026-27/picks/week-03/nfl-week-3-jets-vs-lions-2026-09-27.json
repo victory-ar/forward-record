@@ -1,0 +1,34 @@
+{
+  "away": "NYJ",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 8.764030340557277
+  },
+  "game_id": "2026_03_NYJ_DET",
+  "gameday": "2026-09-27",
+  "ghost_post_id": "6ab3c071121c6651d1f8a00f",
+  "ghost_published_at": "2026-09-23T12:05:05.000Z",
+  "home": "DET",
+  "kickoff_utc": "2026-09-27T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -6.5,
+    "total": 48.0
+  },
+  "model": {
+    "home_win_prob": 0.7523,
+    "spread": -7.78838,
+    "total": 56.76403034055728
+  },
+  "recorded_at_utc": "2026-09-23T12:05:05+00:00",
+  "research_url": "/research/picks/nfl-week-3-jets-vs-lions-2026-09-27",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 3
+}
