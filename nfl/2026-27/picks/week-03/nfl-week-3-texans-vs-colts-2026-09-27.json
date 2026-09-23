@@ -1,0 +1,34 @@
+{
+  "away": "HOU",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": null,
+    "total": 15.144130340557275
+  },
+  "game_id": "2026_03_HOU_IND",
+  "gameday": "2026-09-27",
+  "ghost_post_id": "6ab35e01121c6651d1f89fd7",
+  "ghost_published_at": "2026-09-23T05:05:05.000Z",
+  "home": "IND",
+  "kickoff_utc": "2026-09-27T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 2.5,
+    "total": 43.5
+  },
+  "model": {
+    "home_win_prob": 0.5444,
+    "spread": -2.515744999999998,
+    "total": 58.644130340557275
+  },
+  "recorded_at_utc": "2026-09-23T05:05:05+00:00",
+  "research_url": "/research/picks/nfl-week-3-texans-vs-colts-2026-09-27",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "tiers": {
+    "spread": null,
+    "total": "PRIME_TOT"
+  },
+  "totals_side": "over",
+  "week": 3
+}
