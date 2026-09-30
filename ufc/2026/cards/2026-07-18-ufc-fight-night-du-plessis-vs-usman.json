@@ -7,7 +7,7 @@
     {
       "blue": "Stewart Nicoll",
       "fight_id": 9077,
-      "market_p_red_devig": 0.8991,
+      "market_p_red_devig": 0.8491,
       "model_p_red_prefight": 0.7749,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:01.866014+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Felipe Franco",
       "fight_id": 9078,
-      "market_p_red_devig": 0.5756,
+      "market_p_red_devig": 0.5861,
       "model_p_red_prefight": 0.6471,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-07-18T07:00:10.772689+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Jose Delgado",
       "fight_id": 9080,
-      "market_p_red_devig": 0.1562,
+      "market_p_red_devig": 0.1709,
       "model_p_red_prefight": 0.4492,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:18.246510+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Alberto Montes",
       "fight_id": 9082,
-      "market_p_red_devig": 0.6447,
+      "market_p_red_devig": 0.6581,
       "model_p_red_prefight": 0.699,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:25.942297+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Mitch Ramirez",
       "fight_id": 9084,
-      "market_p_red_devig": 0.7646,
+      "market_p_red_devig": 0.7586,
       "model_p_red_prefight": 0.8011,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:42.103539+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Christian Leroy Duncan",
       "fight_id": 9086,
-      "market_p_red_devig": 0.234,
+      "market_p_red_devig": 0.2694,
       "model_p_red_prefight": 0.2275,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:49.458066+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Kamaru Usman",
       "fight_id": 9087,
-      "market_p_red_devig": 0.6652,
+      "market_p_red_devig": 0.6581,
       "model_p_red_prefight": 0.5936,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:00:56.616853+00:00",
@@ -107,7 +107,7 @@
     {
       "blue": "Alvin Hines",
       "fight_id": 9102,
-      "market_p_red_devig": 0.4892,
+      "market_p_red_devig": 0.481,
       "model_p_red_prefight": 0.7214,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:01:21.861760+00:00",
@@ -117,7 +117,7 @@
     {
       "blue": "Damien Anderson",
       "fight_id": 9106,
-      "market_p_red_devig": 0.4802,
+      "market_p_red_devig": 0.4957,
       "model_p_red_prefight": 0.5709,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-07-18T07:01:29.092274+00:00",

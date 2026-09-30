@@ -7,7 +7,7 @@
     {
       "blue": "Julia Polastri",
       "fight_id": 9260,
-      "market_p_red_devig": 0.3087,
+      "market_p_red_devig": 0.334,
       "model_p_red_prefight": 0.4819,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T16:01:02.167964+00:00",
@@ -17,7 +17,7 @@
     {
       "blue": "Kevin Borjas",
       "fight_id": 9261,
-      "market_p_red_devig": 0.8647,
+      "market_p_red_devig": 0.863,
       "model_p_red_prefight": 0.6933,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T07:00:11.022559+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Sean Woodson",
       "fight_id": 9262,
-      "market_p_red_devig": 0.4343,
+      "market_p_red_devig": 0.4493,
       "model_p_red_prefight": 0.519,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-08-28T16:01:10.415566+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Andre Lima",
       "fight_id": 9263,
-      "market_p_red_devig": 0.2914,
+      "market_p_red_devig": 0.3042,
       "model_p_red_prefight": 0.3295,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T16:01:17.061349+00:00",
@@ -47,7 +47,7 @@
     {
       "blue": " Sumudaerji",
       "fight_id": 9265,
-      "market_p_red_devig": 0.3364,
+      "market_p_red_devig": 0.3425,
       "model_p_red_prefight": 0.367,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T07:00:34.878796+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Kai Asakura",
       "fight_id": 9266,
-      "market_p_red_devig": 0.2174,
+      "market_p_red_devig": 0.2045,
       "model_p_red_prefight": 0.301,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T16:01:23.135849+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Denise Gomes",
       "fight_id": 9267,
-      "market_p_red_devig": 0.5912,
+      "market_p_red_devig": 0.5657,
       "model_p_red_prefight": 0.4194,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-28T07:00:52.456065+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Song Yadong",
       "fight_id": 9268,
-      "market_p_red_devig": 0.8182,
+      "market_p_red_devig": 0.8245,
       "model_p_red_prefight": 0.835,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-08-28T07:01:00.807592+00:00",
@@ -97,7 +97,7 @@
     {
       "blue": "Hector Santiago",
       "fight_id": 9287,
-      "market_p_red_devig": 0.76,
+      "market_p_red_devig": 0.7632,
       "model_p_red_prefight": 0.618,
       "model_pick_correct": false,
       "predicted_at_utc": "2026-08-28T07:01:27.263687+00:00",

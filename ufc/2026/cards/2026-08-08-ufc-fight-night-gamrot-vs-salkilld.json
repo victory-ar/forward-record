@@ -17,7 +17,7 @@
     {
       "blue": "Guilherme Pat",
       "fight_id": 9123,
-      "market_p_red_devig": 0.909,
+      "market_p_red_devig": 0.5,
       "model_p_red_prefight": 0.5389,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T07:00:11.591335+00:00",
@@ -27,7 +27,7 @@
     {
       "blue": "Billy Quarantillo",
       "fight_id": 9125,
-      "market_p_red_devig": 0.913,
+      "market_p_red_devig": 0.8186,
       "model_p_red_prefight": 0.6459,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T16:01:04.852674+00:00",
@@ -37,7 +37,7 @@
     {
       "blue": "Bruno Lopes",
       "fight_id": 9126,
-      "market_p_red_devig": 0.583,
+      "market_p_red_devig": 0.5798,
       "model_p_red_prefight": 0.6593,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T07:00:34.677215+00:00",
@@ -57,7 +57,7 @@
     {
       "blue": "Yadier del Valle",
       "fight_id": 9141,
-      "market_p_red_devig": 0.137,
+      "market_p_red_devig": 0.1458,
       "model_p_red_prefight": 0.3923,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T16:01:11.874784+00:00",
@@ -67,7 +67,7 @@
     {
       "blue": "Billy Ray Goff",
       "fight_id": 9142,
-      "market_p_red_devig": 0.7681,
+      "market_p_red_devig": 0.7958,
       "model_p_red_prefight": 0.6889,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T16:01:18.589598+00:00",
@@ -77,7 +77,7 @@
     {
       "blue": "Ravena Oliveira",
       "fight_id": 9143,
-      "market_p_red_devig": 0.7396,
+      "market_p_red_devig": 0.7335,
       "model_p_red_prefight": 0.6515,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T16:01:25.453784+00:00",
@@ -87,7 +87,7 @@
     {
       "blue": "Richie Miranda",
       "fight_id": 9222,
-      "market_p_red_devig": 0.7369,
+      "market_p_red_devig": 0.7421,
       "model_p_red_prefight": 0.5743,
       "model_pick_correct": true,
       "predicted_at_utc": "2026-08-08T16:01:32.106045+00:00",
