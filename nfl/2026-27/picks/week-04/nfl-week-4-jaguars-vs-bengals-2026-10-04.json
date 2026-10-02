@@ -1,0 +1,56 @@
+{
+  "away": "JAX",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": 7.653961,
+    "total": -5.51
+  },
+  "game_id": "2026_04_JAX_CIN",
+  "gameday": "2026-10-04",
+  "ghost_post_id": "6ac0005e45f9be7c0071ec16",
+  "ghost_published_at": "2026-10-02T19:05:02.000Z",
+  "home": "CIN",
+  "internal_flags": {
+    "early_season_boost": true,
+    "high_edge_warn": false,
+    "high_mc_var_boost": true,
+    "high_meta_confidence": true,
+    "high_meta_ultra": true,
+    "line_drift_warn": false,
+    "low_total_warn": false,
+    "mid_high_total_boost": false,
+    "qb_injury_warn": false,
+    "total_drift_warn": false
+  },
+  "internal_tier": "STRONG",
+  "internal_tier_reason": "0-7pt vegas spread — backfill +26.9% ROI bucket",
+  "kickoff_utc": "2026-10-04T17:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -2.5,
+    "total": 51.5
+  },
+  "model": {
+    "home_win_prob": 0.2936,
+    "projected_spread": 5.153961,
+    "spread": 5.153961,
+    "total": 45.99
+  },
+  "public_rule": {
+    "history": "2026-10-02: publication filter corrected to the pre-registered |edge| >= 6; before this date only the internal 'road favorite' subset was posted. Games that qualified and were not posted are counted as unpublished signals on /performance, not back-filled as picks.",
+    "model_spread_source": "effective_spread",
+    "spread": "abs(model_spread - market_spread) >= 6",
+    "version": "2026-10-02"
+  },
+  "recorded_at_utc": "2026-10-02T19:05:03+00:00",
+  "research_url": "/research/picks/nfl-week-4-jaguars-vs-bengals-2026-10-04",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "spread_side": "away",
+  "tiers": {
+    "spread": "PRIME",
+    "total": null
+  },
+  "totals_side": "under",
+  "week": 4
+}
