@@ -4,7 +4,7 @@
     "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
     "url": "/insights/nfl-2026-27-pre-registration-correction"
   },
-  "last_updated": "2026-10-05T19:00:01.745386+00:00",
+  "last_updated": "2026-10-12T19:00:01.761736+00:00",
   "next_update_at": null,
   "notes": [
     "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
@@ -499,7 +499,7 @@
   "schema_version": 1,
   "season": "2026-27",
   "season_status": "active",
-  "signals_unpublished": 19,
+  "signals_unpublished": 22,
   "tiers": [
     {
       "backtest": {
