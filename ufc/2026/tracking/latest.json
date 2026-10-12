@@ -1,6 +1,22 @@
 {
   "cards": [
     {
+      "brier_market": 0.3168,
+      "brier_model": 0.3482,
+      "date": "2026-10-10",
+      "event": "UFC Fight Night: Allen vs Duncan",
+      "event_id": 1065,
+      "model_beat_market_brier": false,
+      "n_fights": 11,
+      "n_priced": 10,
+      "research_url": "/research/picks/ufc-fight-night-allen-vs-duncan",
+      "su_market": 5,
+      "su_market_pct": 0.5,
+      "su_model": 5,
+      "su_model_pct": 0.4545,
+      "su_model_priced": 4
+    },
+    {
       "brier_market": 0.1358,
       "brier_model": 0.2239,
       "date": "2026-10-03",
@@ -289,7 +305,7 @@
       "su_model_priced": 6
     }
   ],
-  "last_updated": "2026-10-05T19:10:02.523068+00:00",
+  "last_updated": "2026-10-12T19:10:02.817507+00:00",
   "model_version": "ufc_ensemble_v1",
   "notes": [
     "Every fight the production model priced before the bell since the live record began, graded against the official result. A prediction counts only if it was stamped before the event's start time; nothing is back-filled and nothing is dropped.",
@@ -302,57 +318,57 @@
   "schema_version": 1,
   "status": "live",
   "summary": {
-    "brier_market": 0.1913,
-    "brier_model": 0.2244,
+    "brier_market": 0.197,
+    "brier_model": 0.23,
     "market_definition": "pre_bout_consensus",
     "market_lead_h_max": 24.0,
     "market_lead_h_median": 1.0,
     "market_max_lead_h": 48,
     "model_beat_market_brier": false,
-    "n_fights": 217,
-    "n_priced": 209,
+    "n_fights": 228,
+    "n_priced": 219,
     "n_priced_stale_6h": 28,
     "priced_sources": {
-      "fight_odds_prebout": 33,
+      "fight_odds_prebout": 34,
       "hist_close": 16,
-      "live": 160
+      "live": 169
     },
-    "red_win_frac": 0.5392,
-    "su_ci_lower": 0.5799,
-    "su_ci_upper": 0.7066,
-    "su_market": 150,
-    "su_market_pct": 0.7177,
-    "su_model": 140,
-    "su_model_pct": 0.6452,
-    "su_model_priced": 134,
+    "red_win_frac": 0.5482,
+    "su_ci_lower": 0.5721,
+    "su_ci_upper": 0.6964,
+    "su_market": 155,
+    "su_market_pct": 0.7078,
+    "su_model": 145,
+    "su_model_pct": 0.636,
+    "su_model_priced": 138,
     "substrate_ok": true,
-    "window_end": "2026-10-04",
+    "window_end": "2026-10-11",
     "window_start": "2026-05-30"
   },
   "tiers": [
     {
-      "ci_lower": 9.69,
-      "ci_upper": 47.64,
+      "ci_lower": 12.58,
+      "ci_upper": 51.2,
       "label": "Model edge 5 to 7 pts (vig-free)",
-      "n": 17,
-      "roi_pct": -55.89,
-      "win_pct": 23.53
+      "n": 18,
+      "roi_pct": -36.4,
+      "win_pct": 27.78
     },
     {
-      "ci_lower": 22.66,
-      "ci_upper": 56.14,
+      "ci_lower": 21.1,
+      "ci_upper": 53.19,
       "label": "Model edge 7 to 10 pts (vig-free)",
-      "n": 29,
-      "roi_pct": 2.23,
-      "win_pct": 37.93
+      "n": 31,
+      "roi_pct": -4.37,
+      "win_pct": 35.48
     },
     {
-      "ci_lower": 19.57,
-      "ci_upper": 47.09,
+      "ci_lower": 20.49,
+      "ci_upper": 47.58,
       "label": "Model edge 10 to 15 pts (vig-free)",
-      "n": 41,
-      "roi_pct": -6.75,
-      "win_pct": 31.71
+      "n": 43,
+      "roi_pct": -6.74,
+      "win_pct": 32.56
     },
     {
       "ci_lower": 11.86,
@@ -363,47 +379,47 @@
       "win_pct": 23.33
     },
     {
-      "ci_lower": 13.4,
-      "ci_upper": 40.24,
+      "ci_lower": 14.22,
+      "ci_upper": 40.3,
       "label": "Model edge 20+ pts (vig-free)",
-      "n": 37,
-      "roi_pct": -13.53,
-      "win_pct": 24.32
+      "n": 40,
+      "roi_pct": -13.38,
+      "win_pct": 25.0
     },
     {
-      "ci_lower": 16.14,
-      "ci_upper": 30.44,
+      "ci_lower": 16.81,
+      "ci_upper": 30.98,
       "label": "Any underdog lean",
-      "n": 129,
-      "roi_pct": -20.08,
-      "win_pct": 22.48
+      "n": 134,
+      "roi_pct": -18.13,
+      "win_pct": 23.13
     },
     {
-      "ci_lower": 15.7,
-      "ci_upper": 75.51,
+      "ci_lower": 13.7,
+      "ci_upper": 70.07,
       "label": "High-confidence underdog (model 65%+)",
-      "n": 7,
-      "roi_pct": -8.73,
-      "win_pct": 42.86
+      "n": 8,
+      "roi_pct": -20.14,
+      "win_pct": 37.5
     },
     {
-      "ci_lower": 12.8,
-      "ci_upper": 28.34,
+      "ci_lower": 13.22,
+      "ci_upper": 28.65,
       "label": "Underdog lean (model under 65%)",
-      "n": 98,
-      "roi_pct": -24.13,
-      "win_pct": 19.39
+      "n": 101,
+      "roi_pct": -23.76,
+      "win_pct": 19.8
     },
     {
-      "ci_lower": 47.62,
-      "ci_upper": 88.98,
+      "ci_lower": 46.52,
+      "ci_upper": 86.66,
       "label": "Favorite lean",
-      "n": 15,
-      "roi_pct": 25.87,
-      "win_pct": 73.33
+      "n": 17,
+      "roi_pct": 22.06,
+      "win_pct": 70.59
     }
   ],
-  "tiers_note": "Underpowered. Same tier logic as the internal audit; 8 fight(s) skipped for odds mismatch.",
+  "tiers_note": "Underpowered. Same tier logic as the internal audit; 9 fight(s) skipped for odds mismatch.",
   "validation": {
     "protocol_url": "/methodology/protocol",
     "summary": "The pre-June UFC tier ROI validation was withdrawn: the audit substrate recorded the red corner as the winner in 100% of fights, so tier win rates equalled the red-bet fraction. What survives is straight-up winner accuracy. On the live record so far the market's probabilities are better calibrated than the model's, and no betting tier has a positive return. VAR does not present UFC as a validated betting edge.",
