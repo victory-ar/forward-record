@@ -1,0 +1,56 @@
+{
+  "away": "LAC",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": -6.531907,
+    "total": 4.42
+  },
+  "game_id": "2026_06_LAC_KC",
+  "gameday": "2026-10-18",
+  "ghost_post_id": "6acf0d8100695804a78b782e",
+  "ghost_published_at": "2026-10-14T05:05:05.000Z",
+  "home": "KC",
+  "internal_flags": {
+    "early_season_boost": false,
+    "high_edge_warn": false,
+    "high_mc_var_boost": true,
+    "high_meta_confidence": false,
+    "high_meta_ultra": false,
+    "line_drift_warn": true,
+    "low_total_warn": false,
+    "mid_high_total_boost": false,
+    "qb_injury_warn": false,
+    "total_drift_warn": true
+  },
+  "internal_tier": "FADE",
+  "internal_tier_reason": "market spread 8.5pt in 7-14pt fade bucket (-8.5% historical ROI)",
+  "kickoff_utc": "2026-10-18T20:25:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -8.5,
+    "total": 42.0
+  },
+  "model": {
+    "home_win_prob": 0.9055,
+    "projected_spread": -15.031907,
+    "spread": -15.031907,
+    "total": 46.42
+  },
+  "public_rule": {
+    "history": "2026-10-02: publication filter corrected to the pre-registered |edge| >= 6; before this date only the internal 'road favorite' subset was posted. Games that qualified and were not posted are counted as unpublished signals on /performance, not back-filled as picks.",
+    "model_spread_source": "effective_spread",
+    "spread": "abs(model_spread - market_spread) >= 6",
+    "version": "2026-10-02"
+  },
+  "recorded_at_utc": "2026-10-14T05:05:05+00:00",
+  "research_url": "/research/picks/nfl-week-6-chargers-vs-chiefs-2026-10-18",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "spread_side": "home",
+  "tiers": {
+    "spread": "PRIME",
+    "total": null
+  },
+  "totals_side": "over",
+  "week": 6
+}
