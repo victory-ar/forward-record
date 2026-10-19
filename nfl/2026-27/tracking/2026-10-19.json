@@ -1,0 +1,676 @@
+{
+  "correction": {
+    "date": "2026-09-08",
+    "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
+    "url": "/insights/nfl-2026-27-pre-registration-correction"
+  },
+  "last_updated": "2026-10-19T19:00:01.951282+00:00",
+  "next_update_at": null,
+  "notes": [
+    "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
+    "Correction 2026-09-08: the backtest figures originally cited in the pre-registration were withdrawn on 2026-05-17 (feature lookahead in the audit harness). The forward test proceeds as a test of a signal whose corrected backtest is break-even or below. Full notice: /insights/nfl-2026-27-pre-registration-correction.",
+    "Every PRIME-tier bet that fires per /methodology/2026-27-predictions appears here within 24 hours of the game ending. No historical edits — all changes are append-only.",
+    "Each pick links to its corresponding research post under /research/picks where the pre-game rationale lives. A pick is a post published before kickoff; a game that cleared the filter at some hourly snapshot but never inside the publication window is not a pick and is counted separately as an unpublished signal.",
+    "Each pick is graded at the market line recorded in its anchored record file at the moment its research post was published; the model line, market line and edge shown per pick are those as-published figures. The last hourly snapshot at or before the publish time (always before kickoff) supplies the final score and cross-checks the line.",
+    "Correction 2026-10-02: two errors in the exports of 2026-09-21, 09-24 and 09-30 (kept in the public repo as history). (1) A Week 3 'SEA @ WAS, PRIME spread, LOSS' row was removed: that game was never published as a spread pick (its post and its anchored record carry PRIME_TOT only; the spread snapshots the exporter had taken were captured 2026-09-20/21, before the post and outside the publication window). (2) Week 2 'GB @ NYJ, PRIME spread' is regraded PUSH -> LOSS: it was published with GB laid at 3.5 and GB won by 3; the earlier export had graded a snapshot captured after kickoff, by which time the line read 3.0. The PRIME spread forward record is therefore 1 pick, 0-1. (3) Grading every pick at its as-published line also regrades one PRIME_TOT pick: Week 1 'DAL @ NYG, over' WIN -> PUSH — published at a 48.0 total (the game ended 28-20 = 48); the earlier export had graded the last hourly snapshot, taken 20 minutes before kickoff after the total moved to 47.5. Model lines, market lines and edges shown per pick are now the figures in each pick's anchored record file (nine picks had shown a nearby hourly snapshot's model line, off by up to 0.6 points, e.g. GB @ NYJ model +9.8 rather than the published +9.6). With that regrade the PRIME_TOT record at its 2026-09-24 retirement reads 3-4-1 rather than the 4-4 stated at the time; the retirement note now carries both figures. The exporter now grades every pick from its record file at the as-published line, uses only pre-kickoff snapshots at or before each post's publish time for scores, and counts a tier only when the pick record carries it.",
+    "Correction 2026-10-02 (publication filter): the pre-registration defines PRIME spread as |edge| >= 6 (the model's spread differs from the market spread by at least 6 points). From Week 1 until this date the publisher and this export instead gated on an internal classifier label that covers only the 'road favorite + model agrees' subset of those games, so most games that cleared the public filter were neither posted nor counted (Week 4 JAX @ CIN, |edge| 7.7, was the one caught in the window). From this date the publisher, the pick record, this export and the research refresh all apply the pre-registered rule, implemented once (abs(model_spread - market_spread) >= 6, nothing else). Games that qualified before this date and were not posted are counted in signals_unpublished and are NOT back-filled as picks: a pick is still only a post published before kickoff, and the record is append-only. The internal labels remain on the dashboard as rationale, never as a public gate.",
+    "Break-even at -110 closing line: 52.4%."
+  ],
+  "pick_definition": "A pick is a research post published before kickoff (and committed to the public forward record at that moment). Games that clear the PRIME filter at some hourly snapshot but never inside the publication window get no post and are not picks.",
+  "picks": [
+    {
+      "actual_score": null,
+      "edge": -6.46,
+      "kickoff_utc": "2026-10-20T00:15:00+00:00",
+      "market_line": -7.5,
+      "matchup": "WAS @ SF",
+      "model_line": -13.955831000000002,
+      "post_url": "/research/picks/nfl-week-6-commanders-vs-49ers-2026-10-20",
+      "published_at": "2026-10-17T18:05:03.000Z",
+      "result": "PENDING",
+      "side": "SF",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 6,
+        "home": 22
+      },
+      "edge": -6.53,
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "market_line": -8.5,
+      "matchup": "LAC @ KC",
+      "model_line": -15.031907,
+      "post_url": "/research/picks/nfl-week-6-chargers-vs-chiefs-2026-10-18",
+      "published_at": "2026-10-14T05:05:05.000Z",
+      "result": "WIN",
+      "side": "KC",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 10,
+        "home": 13
+      },
+      "edge": 6.48,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": 4.0,
+      "matchup": "BAL @ CLE",
+      "model_line": 10.480594,
+      "post_url": "/research/picks/nfl-week-6-ravens-vs-browns-2026-10-18",
+      "published_at": "2026-10-16T14:05:08.000Z",
+      "result": "LOSS",
+      "side": "BAL",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 25,
+        "home": 14
+      },
+      "edge": 6.42,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": -1.0,
+      "matchup": "CAR @ PHI",
+      "model_line": 5.419927,
+      "post_url": "/research/picks/nfl-week-6-panthers-vs-eagles-2026-10-18",
+      "published_at": "2026-10-14T12:05:03.000Z",
+      "result": "WIN",
+      "side": "CAR",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 31,
+        "home": 23
+      },
+      "edge": -7.61,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": 3.0,
+      "matchup": "CHI @ ATL",
+      "model_line": -4.608964999999999,
+      "post_url": "/research/picks/nfl-week-6-bears-vs-falcons-2026-10-18",
+      "published_at": "2026-10-14T05:05:02.000Z",
+      "result": "LOSS",
+      "side": "ATL",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 22,
+        "home": 17
+      },
+      "edge": 7.65,
+      "kickoff_utc": "2026-10-04T17:00:00+00:00",
+      "market_line": -2.5,
+      "matchup": "JAX @ CIN",
+      "model_line": 5.153961,
+      "post_url": "/research/picks/nfl-week-4-jaguars-vs-bengals-2026-10-04",
+      "published_at": "2026-10-02T19:05:02.000Z",
+      "result": "WIN",
+      "side": "JAX",
+      "tier": "PRIME_SPREAD",
+      "week": 4
+    },
+    {
+      "actual_score": {
+        "away": 7,
+        "home": 27
+      },
+      "edge": 17.66,
+      "kickoff_utc": "2026-09-29T00:15:00+00:00",
+      "market_line": 44.0,
+      "matchup": "PHI @ CHI",
+      "model_line": 61.65883034055728,
+      "post_url": "/research/picks/nfl-week-3-eagles-vs-bears-2026-09-29",
+      "published_at": "2026-09-24T05:05:03.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 34,
+        "home": 31
+      },
+      "edge": 11.79,
+      "kickoff_utc": "2026-09-27T20:25:00+00:00",
+      "market_line": 52.5,
+      "matchup": "BAL @ DAL",
+      "model_line": 64.28603034055729,
+      "post_url": "/research/picks/nfl-week-3-ravens-vs-cowboys-2026-09-27",
+      "published_at": "2026-09-23T05:05:15.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 35,
+        "home": 27
+      },
+      "edge": 7.06,
+      "kickoff_utc": "2026-09-27T20:25:00+00:00",
+      "market_line": 43.5,
+      "matchup": "LV @ NO",
+      "model_line": 50.555930340557275,
+      "post_url": "/research/picks/nfl-week-3-raiders-vs-saints-2026-09-27",
+      "published_at": "2026-09-24T12:05:03.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 30,
+        "home": 36
+      },
+      "edge": 10.34,
+      "kickoff_utc": "2026-09-27T20:05:00+00:00",
+      "market_line": 48.0,
+      "matchup": "ARI @ SF",
+      "model_line": 58.33703034055728,
+      "post_url": "/research/picks/nfl-week-3-cardinals-vs-49ers-2026-09-27",
+      "published_at": "2026-09-23T05:05:13.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 7,
+        "home": 12
+      },
+      "edge": 16.26,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 40.5,
+      "matchup": "TEN @ NYG",
+      "model_line": 56.76113034055728,
+      "post_url": "/research/picks/nfl-week-3-titans-vs-giants-2026-09-27",
+      "published_at": "2026-09-23T05:05:07.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 24,
+        "home": 10
+      },
+      "edge": 14.06,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 46.0,
+      "matchup": "KC @ MIA",
+      "model_line": 60.058930340557275,
+      "post_url": "/research/picks/nfl-week-3-chiefs-vs-dolphins-2026-09-27",
+      "published_at": "2026-09-23T12:05:08.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 16,
+        "home": 24
+      },
+      "edge": 7.21,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 50.5,
+      "matchup": "LAC @ BUF",
+      "model_line": 57.710230340557274,
+      "post_url": "/research/picks/nfl-week-3-chargers-vs-bills-2026-09-27",
+      "published_at": "2026-09-23T12:05:02.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 24,
+        "home": 31
+      },
+      "edge": 8.76,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 48.0,
+      "matchup": "NYJ @ DET",
+      "model_line": 56.76403034055728,
+      "post_url": "/research/picks/nfl-week-3-jets-vs-lions-2026-09-27",
+      "published_at": "2026-09-23T12:05:05.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 31,
+        "home": 33
+      },
+      "edge": 10.51,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 40.0,
+      "matchup": "SEA @ WAS",
+      "model_line": 50.505230340557276,
+      "post_url": "/research/picks/nfl-week-3-seahawks-vs-commanders-2026-09-27",
+      "published_at": "2026-09-23T05:05:11.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 18,
+        "home": 21
+      },
+      "edge": 9.01,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 42.0,
+      "matchup": "CAR @ CLE",
+      "model_line": 51.00633034055728,
+      "post_url": "/research/picks/nfl-week-3-panthers-vs-browns-2026-09-27",
+      "published_at": "2026-09-23T05:05:02.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 27,
+        "home": 30
+      },
+      "edge": 8.52,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 42.5,
+      "matchup": "CIN @ PIT",
+      "model_line": 51.02453034055728,
+      "post_url": "/research/picks/nfl-week-3-bengals-vs-steelers-2026-09-27",
+      "published_at": "2026-09-23T05:05:09.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 17,
+        "home": 19
+      },
+      "edge": 15.14,
+      "kickoff_utc": "2026-09-27T17:00:00+00:00",
+      "market_line": 43.5,
+      "matchup": "HOU @ IND",
+      "model_line": 58.644130340557275,
+      "post_url": "/research/picks/nfl-week-3-texans-vs-colts-2026-09-27",
+      "published_at": "2026-09-23T05:05:05.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 3
+    },
+    {
+      "actual_score": {
+        "away": 6,
+        "home": 28
+      },
+      "edge": 11.08,
+      "kickoff_utc": "2026-09-22T00:15:00+00:00",
+      "market_line": 48.5,
+      "matchup": "NYG @ LA",
+      "model_line": 59.5789,
+      "post_url": "/research/picks/nfl-week-2-giants-vs-rams-2026-09-22",
+      "published_at": "2026-09-17T01:05:03.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 20,
+        "home": 37
+      },
+      "edge": 18.23,
+      "kickoff_utc": "2026-09-20T20:25:00+00:00",
+      "market_line": 50.5,
+      "matchup": "WAS @ DAL",
+      "model_line": 68.7292,
+      "post_url": "/research/picks/nfl-week-2-commanders-vs-cowboys-2026-09-20",
+      "published_at": "2026-09-16T04:05:11.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 13,
+        "home": 35
+      },
+      "edge": 8.48,
+      "kickoff_utc": "2026-09-20T20:25:00+00:00",
+      "market_line": 45.5,
+      "matchup": "MIA @ SF",
+      "model_line": 53.984199999999994,
+      "post_url": "/research/picks/nfl-week-2-dolphins-vs-49ers-2026-09-20",
+      "published_at": "2026-09-16T04:05:13.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 31,
+        "home": 7
+      },
+      "edge": 8.04,
+      "kickoff_utc": "2026-09-20T20:25:00+00:00",
+      "market_line": 41.5,
+      "matchup": "SEA @ ARI",
+      "model_line": 49.542899999999996,
+      "post_url": "/research/picks/nfl-week-2-seahawks-vs-cardinals-2026-09-20",
+      "published_at": "2026-09-16T04:05:09.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 3,
+        "home": 20
+      },
+      "edge": 7.42,
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "market_line": 42.0,
+      "matchup": "PIT @ NE",
+      "model_line": 49.4195,
+      "post_url": "/research/picks/nfl-week-2-steelers-vs-patriots-2026-09-20",
+      "published_at": "2026-09-16T04:05:05.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 20,
+        "home": 6
+      },
+      "edge": 7.01,
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "market_line": 46.5,
+      "matchup": "CIN @ HOU",
+      "model_line": 53.5139,
+      "post_url": "/research/picks/nfl-week-2-bengals-vs-texans-2026-09-20",
+      "published_at": "2026-09-17T13:05:03.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 20,
+        "home": 17
+      },
+      "edge": 6.12,
+      "kickoff_utc": "2026-09-20T17:00:00+00:00",
+      "market_line": 3.5,
+      "matchup": "GB @ NYJ",
+      "model_line": 9.619365,
+      "post_url": "/research/picks/nfl-week-2-packers-vs-jets-2026-09-20",
+      "published_at": "2026-09-16T04:05:07.000Z",
+      "result": "LOSS",
+      "side": "GB",
+      "tier": "PRIME_SPREAD",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 31,
+        "home": 41
+      },
+      "edge": 9.81,
+      "kickoff_utc": "2026-09-18T00:15:00+00:00",
+      "market_line": 53.5,
+      "matchup": "DET @ BUF",
+      "model_line": 63.3068,
+      "post_url": "/research/picks/nfl-week-2-lions-vs-bills-2026-09-18",
+      "published_at": "2026-09-16T04:05:02.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 2
+    },
+    {
+      "actual_score": {
+        "away": 20,
+        "home": 28
+      },
+      "edge": 18.48,
+      "kickoff_utc": "2026-09-14T00:20:00+00:00",
+      "market_line": 48.0,
+      "matchup": "DAL @ NYG",
+      "model_line": 66.4839,
+      "post_url": "/research/picks/nfl-week-1-cowboys-vs-giants-2026-09-14",
+      "published_at": "2026-09-09T01:05:11.000Z",
+      "result": "PUSH",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 26,
+        "home": 14
+      },
+      "edge": 7.63,
+      "kickoff_utc": "2026-09-13T20:25:00+00:00",
+      "market_line": 47.5,
+      "matchup": "ARI @ LAC",
+      "model_line": 55.134499999999996,
+      "post_url": "/research/picks/nfl-week-1-cardinals-vs-chargers-2026-09-13",
+      "published_at": "2026-09-09T01:05:09.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 36,
+        "home": 31
+      },
+      "edge": 10.88,
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "market_line": 44.5,
+      "matchup": "BUF @ HOU",
+      "model_line": 55.3808,
+      "post_url": "/research/picks/nfl-week-1-bills-vs-texans-2026-09-13",
+      "published_at": "2026-09-09T01:05:05.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 59,
+        "home": 37
+      },
+      "edge": 10.55,
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "market_line": 47.0,
+      "matchup": "CHI @ CAR",
+      "model_line": 57.5512,
+      "post_url": "/research/picks/nfl-week-1-bears-vs-panthers-2026-09-13",
+      "published_at": "2026-09-09T01:05:02.000Z",
+      "result": "WIN",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 13,
+        "home": 20
+      },
+      "edge": 7.13,
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "market_line": 41.0,
+      "matchup": "ATL @ PIT",
+      "model_line": 48.1336,
+      "post_url": "/research/picks/nfl-week-1-falcons-vs-steelers-2026-09-13",
+      "published_at": "2026-09-12T16:05:02.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 23,
+        "home": 10
+      },
+      "edge": 8.99,
+      "kickoff_utc": "2026-09-13T17:00:00+00:00",
+      "market_line": 39.5,
+      "matchup": "NYJ @ TEN",
+      "model_line": 48.4929,
+      "post_url": "/research/picks/nfl-week-1-jets-vs-titans-2026-09-13",
+      "published_at": "2026-09-09T01:05:07.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    },
+    {
+      "actual_score": {
+        "away": 27,
+        "home": 7
+      },
+      "edge": 9.14,
+      "kickoff_utc": "2026-09-11T00:35:00+00:00",
+      "market_line": 48.0,
+      "matchup": "SF @ LA",
+      "model_line": 57.1449,
+      "post_url": "/research/picks/nfl-week-1-49ers-vs-rams-2026-09-11",
+      "published_at": "2026-09-08T20:08:20.000Z",
+      "result": "LOSS",
+      "side": "over",
+      "tier": "PRIME_TOT",
+      "week": 1
+    }
+  ],
+  "preregistration_url": "/methodology/2026-27-predictions",
+  "schema_version": 1,
+  "season": "2026-27",
+  "season_status": "active",
+  "signals_unpublished": 21,
+  "tiers": [
+    {
+      "backtest": {
+        "accuracy": 0.511,
+        "ci_lower": 0.452,
+        "ci_upper": 0.57,
+        "n": null,
+        "roi": -0.025,
+        "window": "Leak-free as-of recompute 2026-05-17: spread |edge| ≥ 6 vs the close, play-grain, 2023-2025 walk-forward",
+        "withdrawn": {
+          "accuracy": 0.6283,
+          "ci_lower": 0.5636,
+          "ci_upper": 0.6887,
+          "n": 226,
+          "reason": "Withdrawn 2026-05-17: the audit harness had full-season feature lookahead and early-stopping on the test season",
+          "roi": 0.1995,
+          "window": "3-season walk-forward 2023-2025, audit of 2026-04-30"
+        }
+      },
+      "checkpoint": {
+        "current_state": "active",
+        "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
+        "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
+        "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
+      },
+      "filter": "|edge| ≥ 6",
+      "forward": {
+        "accuracy": 0.5,
+        "ci_lower": 0.1841,
+        "ci_upper": 0.8159,
+        "losses": 3,
+        "n_graded": 6,
+        "pushes": 0,
+        "roi": -0.0455,
+        "wins": 3
+      },
+      "key": "PRIME_SPREAD",
+      "label": "PRIME spread",
+      "market": "NFL spread (against the spread)",
+      "public_rule": {
+        "applied_since": "2026-10-02",
+        "spread": "abs(model_spread - market_spread) >= 6"
+      },
+      "retired": null
+    },
+    {
+      "backtest": {
+        "accuracy": 0.443,
+        "ci_lower": null,
+        "ci_upper": null,
+        "n": null,
+        "roi": null,
+        "window": "Leak-free drive-grain recompute 2026-06-10: PRIME_TOT straight-up, 2023-2025 walk-forward (no CI published)",
+        "withdrawn": {
+          "accuracy": 0.635,
+          "ci_lower": 0.562,
+          "ci_upper": 0.702,
+          "n": 178,
+          "reason": "Withdrawn 2026-05-17: the audit harness had full-season feature lookahead and early-stopping on the test season",
+          "roi": 0.21,
+          "window": "3-season walk-forward 2023-2025, audit of 2026-04-30"
+        }
+      },
+      "checkpoint": {
+        "current_state": "yellow",
+        "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
+        "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
+        "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
+      },
+      "filter": "|edge| ≥ 7",
+      "forward": {
+        "accuracy": 0.44,
+        "ci_lower": 0.2659,
+        "ci_upper": 0.6308,
+        "losses": 14,
+        "n_graded": 26,
+        "pushes": 1,
+        "roi": -0.16,
+        "wins": 11
+      },
+      "key": "PRIME_TOT",
+      "label": "PRIME_TOT",
+      "market": "NFL game total (over / under)",
+      "public_rule": null,
+      "retired": {
+        "date": "2026-09-24",
+        "reason": "The +4.4 bias constant behind this tier was wrong-signed for the live engine (it over-projects totals by 5.7 points on the leak-free 2023-25 walk-forward). Correcting it changes which games qualify, so the pre-registered test cannot continue unchanged; and on that walk-forward the model's side of the market total is right 50.2% of the time (n=816), so there is no signal to re-register. Picks published to this date remain in the record; no new PRIME_TOT picks are made.",
+        "record_at_retirement": "2026 through Week 3 picks: 8 graded, 4-4 as exported on 2026-09-24; 3-4-1 regraded at the as-published line on 2026-10-02"
+      }
+    }
+  ]
+}

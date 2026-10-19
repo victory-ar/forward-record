@@ -4,7 +4,7 @@
     "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
     "url": "/insights/nfl-2026-27-pre-registration-correction"
   },
-  "last_updated": "2026-10-12T19:00:01.761736+00:00",
+  "last_updated": "2026-10-19T19:00:01.951282+00:00",
   "next_update_at": null,
   "notes": [
     "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
@@ -18,6 +18,88 @@
   ],
   "pick_definition": "A pick is a research post published before kickoff (and committed to the public forward record at that moment). Games that clear the PRIME filter at some hourly snapshot but never inside the publication window get no post and are not picks.",
   "picks": [
+    {
+      "actual_score": null,
+      "edge": -6.46,
+      "kickoff_utc": "2026-10-20T00:15:00+00:00",
+      "market_line": -7.5,
+      "matchup": "WAS @ SF",
+      "model_line": -13.955831000000002,
+      "post_url": "/research/picks/nfl-week-6-commanders-vs-49ers-2026-10-20",
+      "published_at": "2026-10-17T18:05:03.000Z",
+      "result": "PENDING",
+      "side": "SF",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 6,
+        "home": 22
+      },
+      "edge": -6.53,
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "market_line": -8.5,
+      "matchup": "LAC @ KC",
+      "model_line": -15.031907,
+      "post_url": "/research/picks/nfl-week-6-chargers-vs-chiefs-2026-10-18",
+      "published_at": "2026-10-14T05:05:05.000Z",
+      "result": "WIN",
+      "side": "KC",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 10,
+        "home": 13
+      },
+      "edge": 6.48,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": 4.0,
+      "matchup": "BAL @ CLE",
+      "model_line": 10.480594,
+      "post_url": "/research/picks/nfl-week-6-ravens-vs-browns-2026-10-18",
+      "published_at": "2026-10-16T14:05:08.000Z",
+      "result": "LOSS",
+      "side": "BAL",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 25,
+        "home": 14
+      },
+      "edge": 6.42,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": -1.0,
+      "matchup": "CAR @ PHI",
+      "model_line": 5.419927,
+      "post_url": "/research/picks/nfl-week-6-panthers-vs-eagles-2026-10-18",
+      "published_at": "2026-10-14T12:05:03.000Z",
+      "result": "WIN",
+      "side": "CAR",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
+        "away": 31,
+        "home": 23
+      },
+      "edge": -7.61,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": 3.0,
+      "matchup": "CHI @ ATL",
+      "model_line": -4.608964999999999,
+      "post_url": "/research/picks/nfl-week-6-bears-vs-falcons-2026-10-18",
+      "published_at": "2026-10-14T05:05:02.000Z",
+      "result": "LOSS",
+      "side": "ATL",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
     {
       "actual_score": {
         "away": 22,
@@ -499,7 +581,7 @@
   "schema_version": 1,
   "season": "2026-27",
   "season_status": "active",
-  "signals_unpublished": 22,
+  "signals_unpublished": 21,
   "tiers": [
     {
       "backtest": {
@@ -528,13 +610,13 @@
       "filter": "|edge| ≥ 6",
       "forward": {
         "accuracy": 0.5,
-        "ci_lower": 0.0943,
-        "ci_upper": 0.9057,
-        "losses": 1,
-        "n_graded": 2,
+        "ci_lower": 0.1841,
+        "ci_upper": 0.8159,
+        "losses": 3,
+        "n_graded": 6,
         "pushes": 0,
         "roi": -0.0455,
-        "wins": 1
+        "wins": 3
       },
       "key": "PRIME_SPREAD",
       "label": "PRIME spread",
