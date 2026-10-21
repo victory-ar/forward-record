@@ -1,0 +1,56 @@
+{
+  "away": "LA",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": 6.633102000000001,
+    "total": 1.6
+  },
+  "game_id": "2026_07_LA_LV",
+  "gameday": "2026-10-25",
+  "ghost_post_id": "6ad8480283c064052fe4a4a9",
+  "ghost_published_at": "2026-10-21T05:05:06.000Z",
+  "home": "LV",
+  "internal_flags": {
+    "early_season_boost": false,
+    "high_edge_warn": false,
+    "high_mc_var_boost": true,
+    "high_meta_confidence": false,
+    "high_meta_ultra": false,
+    "line_drift_warn": true,
+    "low_total_warn": false,
+    "mid_high_total_boost": true,
+    "qb_injury_warn": false,
+    "total_drift_warn": false
+  },
+  "internal_tier": "PRIME",
+  "internal_tier_reason": "road favorite + model agrees",
+  "kickoff_utc": "2026-10-25T20:25:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": 4.0,
+    "total": 47.5
+  },
+  "model": {
+    "home_win_prob": 0.275,
+    "projected_spread": 10.633102000000001,
+    "spread": 10.633102000000001,
+    "total": 49.1
+  },
+  "public_rule": {
+    "history": "2026-10-02: publication filter corrected to the pre-registered |edge| >= 6; before this date only the internal 'road favorite' subset was posted. Games that qualified and were not posted are counted as unpublished signals on /performance, not back-filled as picks.",
+    "model_spread_source": "effective_spread",
+    "spread": "abs(model_spread - market_spread) >= 6",
+    "version": "2026-10-02"
+  },
+  "recorded_at_utc": "2026-10-21T05:05:06+00:00",
+  "research_url": "/research/picks/nfl-week-7-rams-vs-raiders-2026-10-25",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "spread_side": "away",
+  "tiers": {
+    "spread": "PRIME",
+    "total": null
+  },
+  "totals_side": "over",
+  "week": 7
+}
