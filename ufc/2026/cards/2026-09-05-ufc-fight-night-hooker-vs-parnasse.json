@@ -19,6 +19,20 @@
       "winner": "Delphine Benouaich"
     },
     {
+      "blue": "Luis Felipe Dias",
+      "fight_id": 9290,
+      "market_asof_utc": "2026-09-05T13:00:01.919132",
+      "market_lead_h": 3.0,
+      "market_n_books": 6,
+      "market_p_red_devig": 0.514,
+      "market_source": "live",
+      "model_p_red_prefight": 0.4637,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-09-05T07:00:12.271126+00:00",
+      "red": "Matthieu Duclos",
+      "winner": "Matthieu Duclos"
+    },
+    {
       "blue": "Klaudia Sygula",
       "fight_id": 9291,
       "market_asof_utc": "2026-09-05T13:00:01.919132",
@@ -189,6 +203,6 @@
   ],
   "kind": "ufc_card_graded",
   "model_version": "ufc_ensemble_v1",
-  "n_fights": 13,
+  "n_fights": 14,
   "source": "scripts/export_ufc_forward_tracking.py"
 }

@@ -185,10 +185,24 @@
       "predicted_at_utc": "2026-10-03T07:01:42.513371+00:00",
       "red": "Jacobe Smith",
       "winner": "Jacobe Smith"
+    },
+    {
+      "blue": "Anthony Romero",
+      "fight_id": 9403,
+      "market_asof_utc": "2026-10-03T21:00:02.132612",
+      "market_lead_h": 1.0,
+      "market_n_books": 7,
+      "market_p_red_devig": 0.8088,
+      "market_source": "live",
+      "model_p_red_prefight": 0.6516,
+      "model_pick_correct": true,
+      "predicted_at_utc": "2026-10-03T07:01:50.017951+00:00",
+      "red": "Marcus McGhee",
+      "winner": "Marcus McGhee"
     }
   ],
   "kind": "ufc_card_graded",
   "model_version": "ufc_ensemble_v1",
-  "n_fights": 13,
+  "n_fights": 14,
   "source": "scripts/export_ufc_forward_tracking.py"
 }

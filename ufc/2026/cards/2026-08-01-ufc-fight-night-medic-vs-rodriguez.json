@@ -185,10 +185,24 @@
       "predicted_at_utc": "2026-08-01T07:01:36.537117+00:00",
       "red": "Borislav Nikolic",
       "winner": "Borislav Nikolic"
+    },
+    {
+      "blue": "Noah Gugnon",
+      "fight_id": 9140,
+      "market_asof_utc": "2026-08-01T16:00:00.980740",
+      "market_lead_h": 1.0,
+      "market_n_books": 7,
+      "market_p_red_devig": 0.5174,
+      "market_source": "fight_odds_prebout",
+      "model_p_red_prefight": 0.5713,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-01T07:01:44.434564+00:00",
+      "red": "Milos Janicic",
+      "winner": "Noah Gugnon"
     }
   ],
   "kind": "ufc_card_graded",
   "model_version": "ufc_ensemble_v1",
-  "n_fights": 13,
+  "n_fights": 14,
   "source": "scripts/export_ufc_forward_tracking.py"
 }

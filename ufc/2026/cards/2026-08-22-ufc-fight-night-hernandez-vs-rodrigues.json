@@ -131,6 +131,20 @@
       "winner": "Stan Dorsainvil"
     },
     {
+      "blue": "Anthony Wint",
+      "fight_id": 9271,
+      "market_asof_utc": "2026-08-22T23:00:01.385921",
+      "market_lead_h": 1.0,
+      "market_n_books": 8,
+      "market_p_red_devig": 0.1235,
+      "market_source": "live",
+      "model_p_red_prefight": 0.6196,
+      "model_pick_correct": false,
+      "predicted_at_utc": "2026-08-21T07:01:13.182117+00:00",
+      "red": "Terrance Chatman",
+      "winner": "Anthony Wint"
+    },
+    {
       "blue": "Mason Jones",
       "fight_id": 9272,
       "market_asof_utc": "2026-08-22T23:00:01.385921",
@@ -175,6 +189,6 @@
   ],
   "kind": "ufc_card_graded",
   "model_version": "ufc_ensemble_v1",
-  "n_fights": 12,
+  "n_fights": 13,
   "source": "scripts/export_ufc_forward_tracking.py"
 }
