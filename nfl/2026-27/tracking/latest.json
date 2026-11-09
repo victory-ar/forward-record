@@ -4,7 +4,7 @@
     "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
     "url": "/insights/nfl-2026-27-pre-registration-correction"
   },
-  "last_updated": "2026-11-02T20:00:01.671584+00:00",
+  "last_updated": "2026-11-09T20:00:01.804689+00:00",
   "next_update_at": null,
   "notes": [
     "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
@@ -18,6 +18,23 @@
   ],
   "pick_definition": "A pick is a research post published before kickoff (and committed to the public forward record at that moment). Games that clear the PRIME filter at some hourly snapshot but never inside the publication window get no post and are not picks.",
   "picks": [
+    {
+      "actual_score": {
+        "away": 33,
+        "home": 10
+      },
+      "edge": -8.8,
+      "kickoff_utc": "2026-11-06T01:15:00+00:00",
+      "market_line": 9.5,
+      "matchup": "JAX @ BAL",
+      "model_line": 0.7008299999999988,
+      "post_url": "/research/picks/nfl-week-9-jaguars-vs-ravens-2026-11-06",
+      "published_at": "2026-11-04T05:05:03.000Z",
+      "result": "LOSS",
+      "side": "BAL",
+      "tier": "PRIME_SPREAD",
+      "week": 9
+    },
     {
       "actual_score": {
         "away": 24,
@@ -731,13 +748,13 @@
       },
       "filter": "|edge| ≥ 6",
       "forward": {
-        "accuracy": 0.3571,
-        "ci_lower": 0.1634,
-        "ci_upper": 0.6162,
-        "losses": 9,
-        "n_graded": 14,
+        "accuracy": 0.3333,
+        "ci_lower": 0.152,
+        "ci_upper": 0.5866,
+        "losses": 10,
+        "n_graded": 15,
         "pushes": 0,
-        "roi": -0.3182,
+        "roi": -0.3636,
         "wins": 5
       },
       "key": "PRIME_SPREAD",
@@ -768,7 +785,7 @@
         }
       },
       "checkpoint": {
-        "current_state": "yellow",
+        "current_state": "amber",
         "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
         "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
         "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
