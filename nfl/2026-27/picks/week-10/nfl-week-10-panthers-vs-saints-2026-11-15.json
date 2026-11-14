@@ -1,0 +1,54 @@
+{
+  "away": "CAR",
+  "convention": "spread negative = home favored; total = combined points; edge = model minus market",
+  "edge": {
+    "spread": 6.992254,
+    "total": -1.2
+  },
+  "game_id": "2026_10_CAR_NO",
+  "gameday": "2026-11-15",
+  "ghost_post_id": "6af8b0de513f250bb0e7fc49",
+  "ghost_published_at": "2026-11-14T19:05:03.000Z",
+  "home": "NO",
+  "internal_flags": {
+    "early_season_boost": false,
+    "high_edge_warn": false,
+    "high_mc_var_boost": true,
+    "line_drift_warn": false,
+    "low_total_warn": false,
+    "mid_high_total_boost": true,
+    "qb_injury_warn": false,
+    "total_drift_warn": true
+  },
+  "internal_tier": "STRONG",
+  "internal_tier_reason": "0-7pt vegas spread",
+  "kickoff_utc": "2026-11-15T18:00:00+00:00",
+  "kind": "nfl_pick",
+  "market": {
+    "spread": -2.5,
+    "total": 49.0
+  },
+  "model": {
+    "home_win_prob": 0.3854,
+    "projected_spread": 4.492254,
+    "spread": 4.492254,
+    "total": 47.8
+  },
+  "public_rule": {
+    "history": "2026-10-02: publication filter corrected to the pre-registered |edge| >= 6; before this date only the internal 'road favorite' subset was posted. Games that qualified and were not posted are counted as unpublished signals on /performance, not back-filled as picks.",
+    "model_spread_source": "effective_spread",
+    "spread": "abs(model_spread - market_spread) >= 6",
+    "version": "2026-10-02"
+  },
+  "recorded_at_utc": "2026-11-14T19:05:03+00:00",
+  "research_url": "/research/picks/nfl-week-10-panthers-vs-saints-2026-11-15",
+  "season": 2026,
+  "source": "scripts/publish_nfl_research.py",
+  "spread_side": "away",
+  "tiers": {
+    "spread": "PRIME",
+    "total": null
+  },
+  "totals_side": "under",
+  "week": 10
+}
