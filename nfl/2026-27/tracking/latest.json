@@ -4,7 +4,7 @@
     "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
     "url": "/insights/nfl-2026-27-pre-registration-correction"
   },
-  "last_updated": "2026-11-09T20:00:01.804689+00:00",
+  "last_updated": "2026-11-16T20:00:01.944160+00:00",
   "next_update_at": null,
   "notes": [
     "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
@@ -18,6 +18,105 @@
   ],
   "pick_definition": "A pick is a research post published before kickoff (and committed to the public forward record at that moment). Games that clear the PRIME filter at some hourly snapshot but never inside the publication window get no post and are not picks.",
   "picks": [
+    {
+      "actual_score": null,
+      "edge": -6.09,
+      "kickoff_utc": "2026-11-17T01:15:00+00:00",
+      "market_line": -4.5,
+      "matchup": "LAC @ BAL",
+      "model_line": -10.586003999999999,
+      "post_url": "/research/picks/nfl-week-10-chargers-vs-ravens-2026-11-17",
+      "published_at": "2026-11-14T20:05:05.000Z",
+      "result": "PENDING",
+      "side": "BAL",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
+    {
+      "actual_score": {
+        "away": 18,
+        "home": 38
+      },
+      "edge": 6.03,
+      "kickoff_utc": "2026-11-16T01:20:00+00:00",
+      "market_line": -3.5,
+      "matchup": "PIT @ CIN",
+      "model_line": 2.5293839999999994,
+      "post_url": "/research/picks/nfl-week-10-steelers-vs-bengals-2026-11-16",
+      "published_at": "2026-11-14T20:05:02.000Z",
+      "result": "LOSS",
+      "side": "PIT",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
+    {
+      "actual_score": {
+        "away": 34,
+        "home": 6
+      },
+      "edge": 6.66,
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "market_line": 9.5,
+      "matchup": "LA @ ARI",
+      "model_line": 16.164330000000003,
+      "post_url": "/research/picks/nfl-week-10-rams-vs-cardinals-2026-11-15",
+      "published_at": "2026-11-11T11:05:02.000Z",
+      "result": "WIN",
+      "side": "LA",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
+    {
+      "actual_score": {
+        "away": 21,
+        "home": 13
+      },
+      "edge": -7.48,
+      "kickoff_utc": "2026-11-15T21:05:00+00:00",
+      "market_line": 6.5,
+      "matchup": "SEA @ LV",
+      "model_line": -0.9822539999999997,
+      "post_url": "/research/picks/nfl-week-10-seahawks-vs-raiders-2026-11-15",
+      "published_at": "2026-11-12T18:05:02.000Z",
+      "result": "LOSS",
+      "side": "LV",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
+    {
+      "actual_score": {
+        "away": 20,
+        "home": 17
+      },
+      "edge": 6.99,
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "market_line": -2.5,
+      "matchup": "CAR @ NO",
+      "model_line": 4.492254,
+      "post_url": "/research/picks/nfl-week-10-panthers-vs-saints-2026-11-15",
+      "published_at": "2026-11-14T19:05:03.000Z",
+      "result": "WIN",
+      "side": "CAR",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
+    {
+      "actual_score": {
+        "away": 35,
+        "home": 13
+      },
+      "edge": 6.44,
+      "kickoff_utc": "2026-11-15T18:00:00+00:00",
+      "market_line": 3.5,
+      "matchup": "KC @ ATL",
+      "model_line": 9.937668,
+      "post_url": "/research/picks/nfl-week-10-chiefs-vs-falcons-2026-11-15",
+      "published_at": "2026-11-11T12:05:02.000Z",
+      "result": "WIN",
+      "side": "KC",
+      "tier": "PRIME_SPREAD",
+      "week": 10
+    },
     {
       "actual_score": {
         "away": 33,
@@ -190,6 +289,23 @@
     },
     {
       "actual_score": {
+        "away": 10,
+        "home": 13
+      },
+      "edge": 6.48,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "market_line": 4.0,
+      "matchup": "BAL @ CLE",
+      "model_line": 10.480594,
+      "post_url": "/research/picks/nfl-week-6-ravens-vs-browns-2026-10-18",
+      "published_at": "2026-10-16T14:05:08.000Z",
+      "result": "LOSS",
+      "side": "BAL",
+      "tier": "PRIME_SPREAD",
+      "week": 6
+    },
+    {
+      "actual_score": {
         "away": 25,
         "home": 14
       },
@@ -219,23 +335,6 @@
       "published_at": "2026-10-14T05:05:02.000Z",
       "result": "LOSS",
       "side": "ATL",
-      "tier": "PRIME_SPREAD",
-      "week": 6
-    },
-    {
-      "actual_score": {
-        "away": 10,
-        "home": 13
-      },
-      "edge": 6.48,
-      "kickoff_utc": "2026-10-18T17:00:00+00:00",
-      "market_line": 4.0,
-      "matchup": "BAL @ CLE",
-      "model_line": 10.480594,
-      "post_url": "/research/picks/nfl-week-6-ravens-vs-browns-2026-10-18",
-      "published_at": "2026-10-16T14:05:08.000Z",
-      "result": "LOSS",
-      "side": "BAL",
       "tier": "PRIME_SPREAD",
       "week": 6
     },
@@ -719,8 +818,8 @@
   "preregistration_url": "/methodology/2026-27-predictions",
   "schema_version": 1,
   "season": "2026-27",
-  "season_status": "yellow",
-  "signals_unpublished": 21,
+  "season_status": "amber",
+  "signals_unpublished": 22,
   "tiers": [
     {
       "backtest": {
@@ -741,21 +840,21 @@
         }
       },
       "checkpoint": {
-        "current_state": "yellow",
+        "current_state": "amber",
         "wk18_rule": "CI lower bound ≥ 52.4% at season end → green; below → red, claim withdrawn from leaderboard",
         "wk4_rule": "CI lower bound ≥ 50% at n ≥ 10 → green; below → yellow flag + 24h postmortem",
         "wk9_rule": "CI lower bound ≥ 52.4% at n ≥ 20 → green; below → amber + tier may move to in-calibration"
       },
       "filter": "|edge| ≥ 6",
       "forward": {
-        "accuracy": 0.3333,
-        "ci_lower": 0.152,
-        "ci_upper": 0.5866,
-        "losses": 10,
-        "n_graded": 15,
+        "accuracy": 0.4,
+        "ci_lower": 0.2182,
+        "ci_upper": 0.6156,
+        "losses": 12,
+        "n_graded": 20,
         "pushes": 0,
-        "roi": -0.3636,
-        "wins": 5
+        "roi": -0.2364,
+        "wins": 8
       },
       "key": "PRIME_SPREAD",
       "label": "PRIME spread",
