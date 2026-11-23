@@ -4,7 +4,7 @@
     "summary": "The backtest figures cited in the 2026-27 pre-registration (PRIME spread 62.83%, PRIME_TOT 63.5%) were withdrawn on 2026-05-17: the audit harness had feature lookahead. Leak-free recompute: spread |edge| ≥ 6 is 51.1% against the close (95% CI 45.2% to 57.0%), PRIME_TOT 44.3% straight-up. The forward test proceeds and is reported as a test of a break-even-or-below signal.",
     "url": "/insights/nfl-2026-27-pre-registration-correction"
   },
-  "last_updated": "2026-11-16T20:00:01.944160+00:00",
+  "last_updated": "2026-11-23T20:00:02.310081+00:00",
   "next_update_at": null,
   "notes": [
     "Tier rows show the leak-free backtest recompute alongside the running forward (live) figures; the withdrawn 2026-04-30 anchors are kept struck through for the record. Forward columns are blank until games are graded.",
@@ -19,7 +19,44 @@
   "pick_definition": "A pick is a research post published before kickoff (and committed to the public forward record at that moment). Games that clear the PRIME filter at some hourly snapshot but never inside the publication window get no post and are not picks.",
   "picks": [
     {
-      "actual_score": null,
+      "actual_score": {
+        "away": 27,
+        "home": 24
+      },
+      "edge": 9.42,
+      "kickoff_utc": "2026-11-22T21:05:00+00:00",
+      "market_line": -3.0,
+      "matchup": "NYJ @ LAC",
+      "model_line": 6.424235999999999,
+      "post_url": "/research/picks/nfl-week-11-jets-vs-chargers-2026-11-22",
+      "published_at": "2026-11-18T06:05:02.000Z",
+      "result": "WIN",
+      "side": "NYJ",
+      "tier": "PRIME_SPREAD",
+      "week": 11
+    },
+    {
+      "actual_score": {
+        "away": 7,
+        "home": 34
+      },
+      "edge": -7.54,
+      "kickoff_utc": "2026-11-22T18:00:00+00:00",
+      "market_line": -16.0,
+      "matchup": "ARI @ KC",
+      "model_line": -23.544534,
+      "post_url": "/research/picks/nfl-week-11-cardinals-vs-chiefs-2026-11-22",
+      "published_at": "2026-11-18T12:05:03.000Z",
+      "result": "WIN",
+      "side": "KC",
+      "tier": "PRIME_SPREAD",
+      "week": 11
+    },
+    {
+      "actual_score": {
+        "away": 23,
+        "home": 20
+      },
       "edge": -6.09,
       "kickoff_utc": "2026-11-17T01:15:00+00:00",
       "market_line": -4.5,
@@ -27,7 +64,7 @@
       "model_line": -10.586003999999999,
       "post_url": "/research/picks/nfl-week-10-chargers-vs-ravens-2026-11-17",
       "published_at": "2026-11-14T20:05:05.000Z",
-      "result": "PENDING",
+      "result": "LOSS",
       "side": "BAL",
       "tier": "PRIME_SPREAD",
       "week": 10
@@ -819,7 +856,7 @@
   "schema_version": 1,
   "season": "2026-27",
   "season_status": "amber",
-  "signals_unpublished": 22,
+  "signals_unpublished": 24,
   "tiers": [
     {
       "backtest": {
@@ -847,14 +884,14 @@
       },
       "filter": "|edge| ≥ 6",
       "forward": {
-        "accuracy": 0.4,
-        "ci_lower": 0.2182,
-        "ci_upper": 0.6156,
-        "losses": 12,
-        "n_graded": 20,
+        "accuracy": 0.4348,
+        "ci_lower": 0.2555,
+        "ci_upper": 0.6336,
+        "losses": 13,
+        "n_graded": 23,
         "pushes": 0,
-        "roi": -0.2364,
-        "wins": 8
+        "roi": -0.17,
+        "wins": 10
       },
       "key": "PRIME_SPREAD",
       "label": "PRIME spread",
